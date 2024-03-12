@@ -11,7 +11,7 @@ import SwiftUI
 struct ThePeopleThatYouCanTrustIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
     }
 }
