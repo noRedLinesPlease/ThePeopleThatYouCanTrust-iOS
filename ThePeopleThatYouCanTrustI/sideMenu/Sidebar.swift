@@ -36,7 +36,7 @@ struct SideMenu: View {
             maxHeight: .infinity,
             alignment: .topLeading
         )
-        .edgesIgnoringSafeArea(.all)
+        //.edgesIgnoringSafeArea(.all)
     }
 }
 

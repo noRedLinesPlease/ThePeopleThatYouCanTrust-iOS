@@ -25,7 +25,7 @@ struct CustomSearchBar : View {
                         perform: { value in
                         self.showCancelButton = isFocused
                     })
-                    .foregroundColor(Color.black)
+                    .foregroundColor(.black)
                     .onSubmit {
                         isFocused = false
                     }

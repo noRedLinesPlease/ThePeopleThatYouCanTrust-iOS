@@ -9,19 +9,21 @@ import SwiftUI
 
 struct MainScreen: View {
     @Injection(\.navigationManager) var navigationManager
-
-    @State var selection: SideBarRowType = .home
+    @EnvironmentObject var networkMonitor: NetworkMonitor
     
+    
+    @State var selection: SideBarRowType = .home
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
-        
+    
     var body: some View {
         NavigationStack {
+            if(networkMonitor.isConnected){
                 VStack {
                     switch selection {
                     case .home:
                         HomeView()
-                    case .secondTab:
+                    case .companies:
                         CompaniesView()
                     }
                 }.onReceive(navigationManager.pageSelection) { newValue in
@@ -42,18 +44,24 @@ struct MainScreen: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbarBackground(Color(hex: "FF6200EE"), for: .navigationBar)
                 .toolbarBackground(.visible, for: .navigationBar)
-        }
-        .overlay {
-            SideMenu(
-                isSidebarVisible: $isSideBarOpened,
-                contentVar: AnyView(
-                    SideBarView(
-                        selectedSideMenuTab: $selection,
+                
+                .overlay {
+                    SideMenu(
                         isSidebarVisible: $isSideBarOpened,
-                        navigationManager: navigationManager as! NavigationManager
+                        contentVar: AnyView(
+                            SideBarView(
+                                selectedSideMenuTab: $selection,
+                                isSidebarVisible: $isSideBarOpened,
+                                navigationManager: navigationManager as! NavigationManager
+                            )
+                        )
                     )
-                )
-            ).padding(.top, 50)
+                    .padding(.top, 40)
+                }
+            } else {
+                NoNetworkView()
+            }
+            
         }
     }
 }

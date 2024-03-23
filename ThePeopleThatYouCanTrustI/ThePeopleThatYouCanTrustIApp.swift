@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct ThePeopleThatYouCanTrustIApp: App {
+    @Environment(\.colorScheme) var phoneDarkMode
+    @StateObject var networkMonitor = NetworkMonitor()
+    
     var body: some Scene {
         WindowGroup {
-            MainScreen()
+                MainScreen()
+                    .environmentObject(networkMonitor)        
+           
+//                .environment(
+//                    \.colorScheme,UITraitCollection.current.userInterfaceStyle == .dark ?.dark : .light
+//                )
+            //.environment(\.colorScheme, phoneDarkMode == .dark ? .dark : .light)
         }
     }
 }

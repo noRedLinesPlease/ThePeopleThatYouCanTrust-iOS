@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-func SearchingCompaniesListView(filteredList1 : [CompanyInfo], openUrl: OpenURLAction) -> some View {
+func SearchingCompaniesListView(
+    filteredList1 : [CompanyInfo],
+    openUrl: OpenURLAction
+) -> some View {
     ForEach(
         filteredList1,
         id: \.self
     ) { company in
         VStack(alignment: .center, spacing: 0) {
-            //let testing = "?format=100w"
-            let logoUrl = company.companyLogoList.first?.logoUrl ?? ""
+            let logoImageSize = "?format=200w"
+            let logoUrl = (company.companyLogoList.first?.logoUrl ?? "") + (logoImageSize)
+            
             HStack(alignment: .center, spacing: 15) {
                 AsyncImage(url: URL(string: logoUrl)) { image in
                     image
@@ -33,7 +37,9 @@ func SearchingCompaniesListView(filteredList1 : [CompanyInfo], openUrl: OpenURLA
             openUrl(URL(string: companyWeb  ?? "")!)
         }
     }
-    .listRowBackground(Color(hex: "#f6ede0"))
+    .listRowBackground(Color.darkModeOrNot)
     .listRowSeparator(/*@START_MENU_TOKEN@*/.visible/*@END_MENU_TOKEN@*/)
+    .listRowSeparatorTint(.blue)
+    .listSectionSeparator(.hidden, edges: .top)
 }
 

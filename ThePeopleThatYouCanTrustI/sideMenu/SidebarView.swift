@@ -22,7 +22,7 @@ struct SideBarView : View {
         ZStack {
             content
         }
-        .edgesIgnoringSafeArea(.all)
+        //.edgesIgnoringSafeArea(.all)
     }
     
     var content: some View {
@@ -44,14 +44,15 @@ struct SideBarView : View {
             .padding(.top, 5)
             .padding(.horizontal, 40)
             .padding(.bottom, 10)
-            .background(.white)
+            .background(Color.darkModeOrNot)
             
         }
         .fixedSize()
         //.frame(width: sideBarWidth, height: sideBarHeight)
         .offset(x: isSidebarVisible ? -40 : -sideBarWidth, y: isSidebarVisible ? -40 : -sideBarHeight)
         .animation(.default, value: isSidebarVisible)
-        .padding(.leading, 14).padding(.top, 30)
+        .padding(.leading, 14)
+        //.padding(.top, 30)
         
     }
     
@@ -71,18 +72,14 @@ struct SideBarView : View {
                         Image(systemName: imageName)
                             .resizable()
                             .renderingMode(.template)
-                            .foregroundColor(isSelected ? menuColor : .black)
+                            .foregroundColor(isSelected ? Color.sidemenuDarkOrNot : Color.sideMenuTextDark)
                             .frame(width: 18, height: 18)
                     }
                     .frame(width: 28, height: 20)
                     Text(title)
-                        .font(.system(
-                            size: 12,
-                            weight: .bold
-                        )
-                        )
+                        .font(.system(size: 12,weight: .bold))
                         .foregroundStyle(
-                            isSelected ? menuColor : .black
+                            isSelected ? Color.sidemenuDarkOrNot : Color.sideMenuTextDark
                         )
                     Spacer()
                 }
@@ -92,12 +89,11 @@ struct SideBarView : View {
         .padding(.bottom, 6)
         .padding(.top, 6)
         .background(
-            isSelected ? .purple.opacity(0.3) : .white
+            isSelected ? Color.sidemenuSelectedDark : Color.darkModeOrNot
 //            LinearGradient(colors: [isSelected ? .purple.opacity(0.5) : .white, .white],
 //                           startPoint: .leading, endPoint: .trailing)
         )
         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 5, height: 5)))
-
     }
 }
 

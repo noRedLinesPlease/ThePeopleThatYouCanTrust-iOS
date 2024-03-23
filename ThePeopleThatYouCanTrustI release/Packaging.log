@@ -1,0 +1,352 @@
+2024-03-13 01:10:26 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x151c162e0; archive(resolved)="<IDEArchive: 0x600046e6bd80>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (17, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x151c162e0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x151c24ed0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x157a329c0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x157a1f630; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x157a1aa60; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x151cb78b0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1524fb220; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x151cdf1f0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x151cccd90; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1524a36c0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fe125030; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x151c171e0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x151c150a0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600009e0e580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x157a1dd40; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x60000893ce90>", team="(null)">
+	<IDEDistributionContext: 0x1524a3060; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x151c147e0; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x1524b5450; archive = "<IDEArchive: 0x600046e6bd80>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x151c162e0>
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionCopyItemStep
+2024-03-13 01:10:26 +0000  Running /usr/bin/ditto '-V' '/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app'
+2024-03-13 01:10:26 +0000  >>> Copying /Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app 
+2024-03-13 01:10:26 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-03-13 01:10:26 +0000  7055 bytes for ./_CodeSignature/CodeResources
+2024-03-13 01:10:26 +0000  copying file ./Kurale-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  221584 bytes for ./Kurale-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-03-13 01:10:26 +0000  13913 bytes for ./AppIcon60x60@2x.png
+2024-03-13 01:10:26 +0000  copying file ./ThePeopleThatYouCanTrustI ... 
+2024-03-13 01:10:26 +0000  2279920 bytes for ./ThePeopleThatYouCanTrustI
+2024-03-13 01:10:26 +0000  copying file ./Caveat-VariableFont.ttf ... 
+2024-03-13 01:10:26 +0000  393092 bytes for ./Caveat-VariableFont.ttf
+2024-03-13 01:10:26 +0000  copying file ./BungeeSpice-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  501468 bytes for ./BungeeSpice-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./PermanentMarker-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  73620 bytes for ./PermanentMarker-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./Assets.car ... 
+2024-03-13 01:10:26 +0000  411359 bytes for ./Assets.car
+2024-03-13 01:10:26 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-03-13 01:10:26 +0000  16089 bytes for ./AppIcon76x76@2x~ipad.png
+2024-03-13 01:10:26 +0000  copying file ./Salsa-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  47220 bytes for ./Salsa-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./Truculenta-SemiBold.ttf ... 
+2024-03-13 01:10:26 +0000  181592 bytes for ./Truculenta-SemiBold.ttf
+2024-03-13 01:10:26 +0000  copying file ./embedded.mobileprovision ... 
+2024-03-13 01:10:26 +0000  13023 bytes for ./embedded.mobileprovision
+2024-03-13 01:10:26 +0000  copying file ./ProtestGuerrilla-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  84512 bytes for ./ProtestGuerrilla-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/_CodeSignature/CodeResources ... 
+2024-03-13 01:10:26 +0000  3031 bytes for ./AppClips/PeopleYouCanTrustClip.app/_CodeSignature/CodeResources
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/BungeeSpice-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  501468 bytes for ./AppClips/PeopleYouCanTrustClip.app/BungeeSpice-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/PermanentMarker-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  73620 bytes for ./AppClips/PeopleYouCanTrustClip.app/PermanentMarker-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip ... 
+2024-03-13 01:10:26 +0000  2280048 bytes for ./AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/Assets.car ... 
+2024-03-13 01:10:26 +0000  411359 bytes for ./AppClips/PeopleYouCanTrustClip.app/Assets.car
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/embedded.mobileprovision ... 
+2024-03-13 01:10:26 +0000  12894 bytes for ./AppClips/PeopleYouCanTrustClip.app/embedded.mobileprovision
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/ProtestGuerrilla-Regular.ttf ... 
+2024-03-13 01:10:26 +0000  84512 bytes for ./AppClips/PeopleYouCanTrustClip.app/ProtestGuerrilla-Regular.ttf
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/Info.plist ... 
+2024-03-13 01:10:26 +0000  1396 bytes for ./AppClips/PeopleYouCanTrustClip.app/Info.plist
+2024-03-13 01:10:26 +0000  copying file ./AppClips/PeopleYouCanTrustClip.app/PkgInfo ... 
+2024-03-13 01:10:26 +0000  8 bytes for ./AppClips/PeopleYouCanTrustClip.app/PkgInfo
+2024-03-13 01:10:26 +0000  copying file ./Info.plist ... 
+2024-03-13 01:10:26 +0000  1634 bytes for ./Info.plist
+2024-03-13 01:10:26 +0000  copying file ./PkgInfo ... 
+2024-03-13 01:10:26 +0000  8 bytes for ./PkgInfo
+2024-03-13 01:10:26 +0000  /usr/bin/ditto exited with 0
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionInfoPlistStep
+2024-03-13 01:10:26 +0000  Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2024-03-13 01:10:26 +0000  Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionItemRemovalStep
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-03-13 01:10:26 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2024-03-13 01:10:26 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-03-13 01:10:26 +0000  Processing step: IDEDistributionSymbolsStep
+2024-03-13 01:10:26 +0000  Processing symbols for PeopleYouCanTrustClip.app
+2024-03-13 01:10:26 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app' '--link-dest' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV'
+2024-03-13 01:10:26 +0000  building file list ... 
+2024-03-13 01:10:26 +0000   0 files...2024-03-13 01:10:26 +0000  11 files to consider
+2024-03-13 01:10:26 +0000  PeopleYouCanTrustClip.app/
+2024-03-13 01:10:26 +0000  PeopleYouCanTrustClip.app/_CodeSignature/
+2024-03-13 01:10:26 +0000  
+2024-03-13 01:10:26 +0000  sent 423 bytes  received 32 bytes  910.00 bytes/sec
+total size is 3.21M  speedup is 7406.96
+2024-03-13 01:10:26 +0000  /usr/bin/rsync exited with 0
+2024-03-13 01:10:26 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/dSYMs/' '--link-dest' '/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/dSYMs/' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV'
+2024-03-13 01:10:26 +0000  building file list ... 
+2024-03-13 01:10:26 +0000   0 files...2024-03-13 01:10:26 +0000  19 files to consider
+2024-03-13 01:10:26 +0000  ./
+2024-03-13 01:10:26 +0000  PeopleYouCanTrustClip.app.dSYM/
+PeopleYouCanTrustClip.app.dSYM/Contents/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/
+2024-03-13 01:10:26 +0000  PeopleYouCanTrustClip.app.dSYM/Contents/Resources/DWARF/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/Relocations/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/Relocations/aarch64/
+ThePeopleThatYouCanTrustI.app.dSYM/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/DWARF/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/Relocations/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-03-13 01:10:26 +0000  
+2024-03-13 01:10:26 +0000  sent 756 bytes  received 98 bytes  1.67K bytes/sec
+total size is 17.27M  speedup is 21210.33
+2024-03-13 01:10:26 +0000  /usr/bin/rsync exited with 0
+2024-03-13 01:10:26 +0000  Writing /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Symbols/0D3E7649-66B2-348E-935E-D56047C175E1.symbols
+2024-03-13 01:10:26 +0000  Processing symbols for ThePeopleThatYouCanTrustI.app
+2024-03-13 01:10:26 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app' '--link-dest' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV'
+2024-03-13 01:10:26 +0000  building file list ... 
+2024-03-13 01:10:26 +0000   0 files...2024-03-13 01:10:26 +0000  29 files to consider
+2024-03-13 01:10:26 +0000  ThePeopleThatYouCanTrustI.app/
+2024-03-13 01:10:26 +0000  ThePeopleThatYouCanTrustI.app/AppClips/
+ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/
+ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/_CodeSignature/
+2024-03-13 01:10:26 +0000  ThePeopleThatYouCanTrustI.app/_CodeSignature/
+2024-03-13 01:10:26 +0000  
+2024-03-13 01:10:26 +0000  sent 1015 bytes  received 50 bytes  2.08K bytes/sec
+total size is 7.27M  speedup is 7153.16
+2024-03-13 01:10:26 +0000  /usr/bin/rsync exited with 0
+2024-03-13 01:10:26 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/dSYMs/' '--link-dest' '/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/dSYMs/' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV'
+2024-03-13 01:10:26 +0000  building file list ... 
+2024-03-13 01:10:26 +0000   0 files...2024-03-13 01:10:26 +0000  19 files to consider
+2024-03-13 01:10:26 +0000  ./
+2024-03-13 01:10:26 +0000  PeopleYouCanTrustClip.app.dSYM/
+PeopleYouCanTrustClip.app.dSYM/Contents/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/DWARF/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/Relocations/
+PeopleYouCanTrustClip.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-03-13 01:10:26 +0000  ThePeopleThatYouCanTrustI.app.dSYM/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/DWARF/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/Relocations/
+ThePeopleThatYouCanTrustI.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-03-13 01:10:26 +0000  
+2024-03-13 01:10:26 +0000  sent 792 bytes  received 134 bytes  1.81K bytes/sec
+total size is 17.27M  speedup is 19561.14
+2024-03-13 01:10:26 +0000  /usr/bin/rsync exited with 0
+2024-03-13 01:10:27 +0000  Writing /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Symbols/1246942E-37F2-3850-9DC9-7914A04F289B.symbols
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionAppThinningStep
+2024-03-13 01:10:27 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionArchThinningStep
+2024-03-13 01:10:27 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip' '-verify_arch' 'arm64e'
+2024-03-13 01:10:27 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-03-13 01:10:27 +0000  Skipping architecture thinning for item "PeopleYouCanTrustClip" because arch "arm64e" wasn't found
+2024-03-13 01:10:27 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI' '-verify_arch' 'arm64e'
+2024-03-13 01:10:27 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-03-13 01:10:27 +0000  Skipping architecture thinning for item "ThePeopleThatYouCanTrustI" because arch "arm64e" wasn't found
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionODRStep
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionStripXattrsStep
+2024-03-13 01:10:27 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-03-13 01:10:27 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionCodesignStep
+2024-03-13 01:10:27 +0000  Entitlements for <IDEDistributionItem: 0x600046e228e0; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', path='<DVTFilePath:0x60000e458180:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3f070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000fe37540; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip";
+    "com.apple.developer.on-demand-install-capable" = 1;
+    "com.apple.developer.parent-application-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', executablePath='<DVTFilePath:0x60001e2c2c30:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip";
+    "beta-reports-active" = 1;
+    "com.apple.developer.on-demand-install-capable" = 1;
+    "com.apple.developer.parent-application-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-13 01:10:27 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-03-13 01:10:27 +0000  Entitlements for <IDEDistributionItem: 0x600046e228e0; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', path='<DVTFilePath:0x60000e458180:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3f070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600007edbf00; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip";
+    "com.apple.developer.on-demand-install-capable" = 1;
+    "com.apple.developer.parent-application-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', executablePath='<DVTFilePath:0x60001e2c2c30:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip";
+    "beta-reports-active" = 1;
+    "com.apple.developer.on-demand-install-capable" = 1;
+    "com.apple.developer.parent-application-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-13 01:10:27 +0000  Writing entitlements for <IDEDistributionItem: 0x600046e228e0; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', path='<DVTFilePath:0x60000e458180:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3f070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600007edb900; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip";
+    "com.apple.developer.on-demand-install-capable" = 1;
+    "com.apple.developer.parent-application-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI.Clip', executablePath='<DVTFilePath:0x60001e2c2c30:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip'>', hardenedRuntime='0'>'> to: /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/entitlements~~~7Rb7WX
+2024-03-13 01:10:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '4435B8D0CC317972274943235B3CEB187C1A9CD3' '--entitlements' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/entitlements~~~7Rb7WX' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app'
+2024-03-13 01:10:27 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app: replacing existing signature
+2024-03-13 01:10:27 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app: signed app bundle with Mach-O thin (arm64) [com.blue.panthers.ThePeopleThatYouCanTrustI.Clip]
+2024-03-13 01:10:27 +0000  /usr/bin/codesign exited with 0
+2024-03-13 01:10:27 +0000  Entitlements for <IDEDistributionItem: 0x600046e22640; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000e439e80:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3c230; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000fe37540; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000e4d6a00:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-13 01:10:27 +0000  Associated App Clip Identifiers Filter: ThePeopleThatYouCanTrustI.app has 1 associated app clip identifiers
+2024-03-13 01:10:27 +0000  Entitlements for <IDEDistributionItem: 0x600046e22640; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000e439e80:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3c230; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600007edbf00; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000e4d6a00:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-13 01:10:27 +0000  Writing entitlements for <IDEDistributionItem: 0x600046e22640; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000e439e80:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600036b3c230; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000fe34900; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000e4d6a00:'/Users/brittanymarbaker/Library/Developer/Xcode/Archives/2024-03-12/ThePeopleThatYouCanTrustI 3-12-24, 9.10 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'> to: /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/entitlements~~~0O5dgh
+2024-03-13 01:10:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '4435B8D0CC317972274943235B3CEB187C1A9CD3' '--entitlements' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/entitlements~~~0O5dgh' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app'
+2024-03-13 01:10:27 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app: replacing existing signature
+2024-03-13 01:10:27 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app: signed app bundle with Mach-O thin (arm64) [com.blue.panthers.ThePeopleThatYouCanTrustI]
+2024-03-13 01:10:27 +0000  /usr/bin/codesign exited with 0
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionZipODRItemStep
+2024-03-13 01:10:27 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-03-13 01:10:27 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionCreateIPAStep
+2024-03-13 01:10:27 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Symbols' '--link-dest' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root'
+2024-03-13 01:10:27 +0000  building file list ... 
+2024-03-13 01:10:27 +0000   0 files...2024-03-13 01:10:27 +0000  3 files to consider
+2024-03-13 01:10:27 +0000  Symbols/
+2024-03-13 01:10:27 +0000  
+2024-03-13 01:10:27 +0000  sent 209 bytes  received 26 bytes  470.00 bytes/sec
+total size is 8.43M  speedup is 37606.74
+2024-03-13 01:10:27 +0000  /usr/bin/rsync exited with 0
+2024-03-13 01:10:27 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Packages/ThePeopleThatYouCanTrustI.ipa'
+2024-03-13 01:10:27 +0000  >>> Copying /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root 
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/_CodeSignature/CodeResources ... 
+2024-03-13 01:10:27 +0000  7055 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/_CodeSignature/CodeResources
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Kurale-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  221584 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Kurale-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon60x60@2x.png ... 
+2024-03-13 01:10:27 +0000  13913 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon60x60@2x.png
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI ... 
+2024-03-13 01:10:27 +0000  2279984 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Caveat-VariableFont.ttf ... 
+2024-03-13 01:10:27 +0000  393092 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Caveat-VariableFont.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/BungeeSpice-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  501468 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/BungeeSpice-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/PermanentMarker-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  73620 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/PermanentMarker-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Assets.car ... 
+2024-03-13 01:10:27 +0000  411359 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Assets.car
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon76x76@2x~ipad.png ... 
+2024-03-13 01:10:27 +0000  16089 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon76x76@2x~ipad.png
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Salsa-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  47220 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Salsa-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Truculenta-SemiBold.ttf ... 
+2024-03-13 01:10:27 +0000  181592 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Truculenta-SemiBold.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/embedded.mobileprovision ... 
+2024-03-13 01:10:27 +0000  14850 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/embedded.mobileprovision
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/ProtestGuerrilla-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  84512 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/ProtestGuerrilla-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/_CodeSignature/CodeResources ... 
+2024-03-13 01:10:27 +0000  3031 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/_CodeSignature/CodeResources
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/BungeeSpice-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  501468 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/BungeeSpice-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PermanentMarker-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  73620 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PermanentMarker-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip ... 
+2024-03-13 01:10:27 +0000  2280112 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PeopleYouCanTrustClip
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/Assets.car ... 
+2024-03-13 01:10:27 +0000  411359 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/Assets.car
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/embedded.mobileprovision ... 
+2024-03-13 01:10:27 +0000  14725 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/embedded.mobileprovision
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/ProtestGuerrilla-Regular.ttf ... 
+2024-03-13 01:10:27 +0000  84512 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/ProtestGuerrilla-Regular.ttf
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/Info.plist ... 
+2024-03-13 01:10:27 +0000  1396 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/Info.plist
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PkgInfo ... 
+2024-03-13 01:10:27 +0000  8 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app/PkgInfo
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Info.plist ... 
+2024-03-13 01:10:27 +0000  1665 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Info.plist
+2024-03-13 01:10:27 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/PkgInfo ... 
+2024-03-13 01:10:27 +0000  8 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/PkgInfo
+2024-03-13 01:10:27 +0000  copying file ./Symbols/1246942E-37F2-3850-9DC9-7914A04F289B.symbols ... 
+2024-03-13 01:10:27 +0000  4422012 bytes for ./Symbols/1246942E-37F2-3850-9DC9-7914A04F289B.symbols
+2024-03-13 01:10:27 +0000  copying file ./Symbols/0D3E7649-66B2-348E-935E-D56047C175E1.symbols ... 
+2024-03-13 01:10:27 +0000  4415572 bytes for ./Symbols/0D3E7649-66B2-348E-935E-D56047C175E1.symbols
+2024-03-13 01:10:27 +0000  /usr/bin/ditto exited with 0
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-03-13 01:10:27 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-03-13 01:10:27 +0000  IDEDistributionItem init <DVTFilePath:0x60000e4b5900:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app/AppClips/PeopleYouCanTrustClip.app'>
+2024-03-13 01:10:27 +0000  IDEDistributionItem init <DVTFilePath:0x60001e514600:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~G4OOmV/Root/Payload/ThePeopleThatYouCanTrustI.app'>
+2024-03-13 01:10:27 +0000  Processing step: IDEDistributionCreateManifestStep
+2024-03-13 01:10:27 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

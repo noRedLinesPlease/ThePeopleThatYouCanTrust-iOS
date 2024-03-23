@@ -7,13 +7,13 @@
 
 enum SideBarRowType: Int, CaseIterable {
     case home = 0
-    case secondTab = 1
+    case companies = 1
     
     var title: String{
         switch self {
         case .home:
             return "Home"
-        case .secondTab:
+        case .companies:
             return "Companies"
         }
     }
@@ -22,7 +22,7 @@ enum SideBarRowType: Int, CaseIterable {
             switch self {
             case .home:
                 return "house.fill"
-            case .secondTab:
+            case .companies:
                 return "building.fill"
             }
         }

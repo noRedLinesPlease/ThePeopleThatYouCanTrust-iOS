@@ -11,6 +11,7 @@ import Combine
 class HomeViewModel: ObservableObject {
     
     @Injection(\.navigationManager) var navigationManager
+    
 }
 
 struct HomeView: View {
@@ -29,8 +30,7 @@ struct HomeView: View {
                     "updatedLogo"
                 ).resizable()
                     .frame(width: 160, height: 160)
-                
-                
+            
                 Divider()
                     .frame(width: .none, height: 1)
                     .overlay(.blue)
@@ -72,7 +72,7 @@ struct HomeView: View {
                     .font(Font.custom("Kurale-Regular", size: 15))
                     .multilineTextAlignment(.center)
                 
-                Button(action: {viewModel.navigationManager.pageSelection.send(.secondTab) }) {
+                Button(action: {viewModel.navigationManager.pageSelection.send(.companies) }) {
                     Text("Search companies")
                         .font(Font.custom("PermanentMarker-Regular", size: 15))
                         .foregroundStyle(.white)
@@ -93,7 +93,7 @@ struct HomeView: View {
                 }
             }
             .padding(.horizontal, 6)
-        }.background(Color(hex: "#f6ede0"))
+        }.background(Color.darkModeOrNot)
     }
 }
 
