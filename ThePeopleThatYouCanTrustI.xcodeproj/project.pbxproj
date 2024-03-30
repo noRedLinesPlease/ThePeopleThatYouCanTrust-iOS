@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		13D1B37AB780256B8E81B6E1 /* libPods-ThePeopleThatYouCanTrustIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46F83BE636EC8B8EA84658B /* libPods-ThePeopleThatYouCanTrustIUITests.a */; };
-		48EBFF80CA2659D0BCF10E04 /* libPods-PeopleYouCanTrustClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1F3B0789D4E6CA63C784A /* libPods-PeopleYouCanTrustClip.a */; };
+		6D14A5342BB0B27C00AB7F46 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */; };
+		6D14A5372BB0B2AD00AB7F46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */; };
+		6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */; };
+		6D14A53D2BB0BE8300AB7F46 /* SearchingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A53C2BB0BE8300AB7F46 /* SearchingImageView.swift */; };
 		6D4C54CE2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */; };
-		6D4C54CF2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */; };
 		6D4C54D12BAE0045008DDDF1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */; };
-		6D4C54D22BAE0045008DDDF1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */; };
 		6D56FD622BA012240013404E /* Truculenta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D56FD612BA012240013404E /* Truculenta-SemiBold.ttf */; };
-		6D56FD642BA014570013404E /* BungeeSpice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87732B9E20C400794633 /* BungeeSpice-Regular.ttf */; };
-		6D56FD652BA015940013404E /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A879C2B9E34C000794633 /* PermanentMarker-Regular.ttf */; };
-		6D56FD662BA015FF0013404E /* ProtestGuerrilla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87962B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf */; };
-		6D56FD672BA097620013404E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF63A162B9D4D23000BC120 /* Assets.xcassets */; };
+		6D57AD6F2BB1F2D800124D99 /* NavDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57AD6E2BB1F2D800124D99 /* NavDrawer.swift */; };
 		6D6A876C2B9E1F1F00794633 /* Kurale-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A876B2B9E1F1F00794633 /* Kurale-Regular.ttf */; };
 		6D6A876E2B9E1F3D00794633 /* Salsa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A876D2B9E1F3D00794633 /* Salsa-Regular.ttf */; };
 		6D6A87722B9E20BA00794633 /* Caveat-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87712B9E20BA00794633 /* Caveat-VariableFont.ttf */; };
 		6D6A87742B9E20C400794633 /* BungeeSpice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87732B9E20C400794633 /* BungeeSpice-Regular.ttf */; };
 		6D6A87762B9E210A00794633 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87752B9E210A00794633 /* NetworkCheck.swift */; };
 		6D6A87782B9E213700794633 /* PopupKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87772B9E213700794633 /* PopupKeyboard.swift */; };
-		6D6A877A2B9E213F00794633 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87792B9E213F00794633 /* Sidebar.swift */; };
 		6D6A877C2B9E215E00794633 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877B2B9E215E00794633 /* SidebarView.swift */; };
 		6D6A877E2B9E216B00794633 /* SidebarRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877D2B9E216B00794633 /* SidebarRowType.swift */; };
 		6D6A87802B9E217200794633 /* InjectionAnn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877F2B9E217200794633 /* InjectionAnn.swift */; };
@@ -40,27 +37,6 @@
 		6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87932B9E21E600794633 /* AboutUsNetworkCall.swift */; };
 		6D6A87972B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87962B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf */; };
 		6D6A879D2B9E34C000794633 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A879C2B9E34C000794633 /* PermanentMarker-Regular.ttf */; };
-		6D6A87F62B9FF37300794633 /* PeopleYouCanTrustClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87F52B9FF37300794633 /* PeopleYouCanTrustClipApp.swift */; };
-		6D6A88092B9FF37400794633 /* PeopleYouCanTrustClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A88082B9FF37400794633 /* PeopleYouCanTrustClipTests.swift */; };
-		6D6A88132B9FF37400794633 /* PeopleYouCanTrustClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A88122B9FF37400794633 /* PeopleYouCanTrustClipUITests.swift */; };
-		6D6A88152B9FF37400794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A88142B9FF37400794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift */; };
-		6D6A88182B9FF37400794633 /* PeopleYouCanTrustClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 6D6A87F32B9FF37300794633 /* PeopleYouCanTrustClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6D6A88232B9FF37B00794633 /* InjectionAnn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877F2B9E217200794633 /* InjectionAnn.swift */; };
-		6D6A88242B9FF38200794633 /* NavManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87812B9E217800794633 /* NavManager.swift */; };
-		6D6A88252B9FF38500794633 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87832B9E218700794633 /* MainScreen.swift */; };
-		6D6A88262B9FF38800794633 /* SidebarRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877D2B9E216B00794633 /* SidebarRowType.swift */; };
-		6D6A88272B9FF38B00794633 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877B2B9E215E00794633 /* SidebarView.swift */; };
-		6D6A88282B9FF38E00794633 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87792B9E213F00794633 /* Sidebar.swift */; };
-		6D6A88292B9FF39400794633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87852B9E219100794633 /* HomeView.swift */; };
-		6D6A882A2B9FF39700794633 /* CompanyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87872B9E219900794633 /* CompanyList.swift */; };
-		6D6A882B2B9FF39900794633 /* CompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87892B9E21A000794633 /* CompaniesView.swift */; };
-		6D6A882C2B9FF39C00794633 /* DefaultCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */; };
-		6D6A882D2B9FF39E00794633 /* SearchingCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878D2B9E21C400794633 /* SearchingCompaniesView.swift */; };
-		6D6A882E2B9FF3A100794633 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */; };
-		6D6A882F2B9FF3A800794633 /* ApiFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87912B9E21DC00794633 /* ApiFetchHandler.swift */; };
-		6D6A88302B9FF3AB00794633 /* AboutUsNetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87932B9E21E600794633 /* AboutUsNetworkCall.swift */; };
-		6D6A88312B9FF3AE00794633 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87752B9E210A00794633 /* NetworkCheck.swift */; };
-		6D6A88322B9FF3B000794633 /* PopupKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87772B9E213700794633 /* PopupKeyboard.swift */; };
 		6DF63A132B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A122B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift */; };
 		6DF63A172B9D4D23000BC120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF63A162B9D4D23000BC120 /* Assets.xcassets */; };
 		6DF63A242B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A232B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.swift */; };
@@ -68,32 +44,9 @@
 		6DF63A302B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A2F2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITestsLaunchTests.swift */; };
 		71ADCCCDB27CE2F041C2094C /* libPods-ThePeopleThatYouCanTrustI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A1F95B17E6C774354826DB /* libPods-ThePeopleThatYouCanTrustI.a */; };
 		802FD052C1054D317A4E1385 /* libPods-ThePeopleThatYouCanTrustITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7F88D7C78A2F45D37D3703 /* libPods-ThePeopleThatYouCanTrustITests.a */; };
-		929656132CCC38E4BAD2C2A9 /* libPods-PeopleYouCanTrustClipUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 802D4FB4CD05838DA71DAC09 /* libPods-PeopleYouCanTrustClipUITests.a */; };
-		BC9AA5C8B8990007FC69E9B0 /* libPods-PeopleYouCanTrustClipTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6FC9E538CFF3E467EC825B /* libPods-PeopleYouCanTrustClipTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D6A88052B9FF37400794633 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D6A87F22B9FF37300794633;
-			remoteInfo = PeopleYouCanTrustClip;
-		};
-		6D6A880F2B9FF37400794633 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D6A87F22B9FF37300794633;
-			remoteInfo = PeopleYouCanTrustClip;
-		};
-		6D6A88162B9FF37400794633 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D6A87F22B9FF37300794633;
-			remoteInfo = PeopleYouCanTrustClip;
-		};
 		6DF63A202B9D4D24000BC120 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
@@ -117,7 +70,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				6D6A88182B9FF37400794633 /* PeopleYouCanTrustClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,17 +84,21 @@
 		332020D30C6992C951E352E8 /* Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustIUITests/Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3765EEDC6C2F720B170C88B4 /* Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustITests/Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6401191097ED287E6ADD64E9 /* Pods-PeopleYouCanTrustClipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleYouCanTrustClipUITests.release.xcconfig"; path = "Target Support Files/Pods-PeopleYouCanTrustClipUITests/Pods-PeopleYouCanTrustClipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		6D14A53C2BB0BE8300AB7F46 /* SearchingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingImageView.swift; sourceTree = "<group>"; };
 		6D44EA4F2BA111530051CD86 /* ThePeopleThatYouCanTrustI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThePeopleThatYouCanTrustI.entitlements; sourceTree = "<group>"; };
 		6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
 		6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		6D56FD612BA012240013404E /* Truculenta-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Truculenta-SemiBold.ttf"; sourceTree = "<group>"; };
+		6D57AD6E2BB1F2D800124D99 /* NavDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawer.swift; sourceTree = "<group>"; };
 		6D6A876B2B9E1F1F00794633 /* Kurale-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kurale-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A876D2B9E1F3D00794633 /* Salsa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salsa-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A87712B9E20BA00794633 /* Caveat-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-VariableFont.ttf"; sourceTree = "<group>"; };
 		6D6A87732B9E20C400794633 /* BungeeSpice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeSpice-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A87752B9E210A00794633 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		6D6A87772B9E213700794633 /* PopupKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupKeyboard.swift; sourceTree = "<group>"; };
-		6D6A87792B9E213F00794633 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		6D6A877B2B9E215E00794633 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		6D6A877D2B9E216B00794633 /* SidebarRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarRowType.swift; sourceTree = "<group>"; };
 		6D6A877F2B9E217200794633 /* InjectionAnn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionAnn.swift; sourceTree = "<group>"; };
@@ -159,24 +115,6 @@
 		6D6A87952B9E243000794633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6D6A87962B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProtestGuerrilla-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A879C2B9E34C000794633 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
-		6D6A87AA2B9FF1D700794633 /* PeopleYouCanTrustClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipApp.swift; sourceTree = "<group>"; };
-		6D6A87AE2B9FF1D900794633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D6A87B62B9FF1D900794633 /* PeopleYouCanTrustClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeopleYouCanTrustClip.xcdatamodel; sourceTree = "<group>"; };
-		6D6A87B82B9FF1D900794633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D6A87B92B9FF1D900794633 /* PeopleYouCanTrustClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeopleYouCanTrustClip.entitlements; sourceTree = "<group>"; };
-		6D6A87C22B9FF1D900794633 /* PeopleYouCanTrustClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipTests.swift; sourceTree = "<group>"; };
-		6D6A87CC2B9FF1D900794633 /* PeopleYouCanTrustClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipUITests.swift; sourceTree = "<group>"; };
-		6D6A87CE2B9FF1D900794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6D6A87F32B9FF37300794633 /* PeopleYouCanTrustClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleYouCanTrustClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D6A87F52B9FF37300794633 /* PeopleYouCanTrustClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipApp.swift; sourceTree = "<group>"; };
-		6D6A87F92B9FF37400794633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D6A87FE2B9FF37400794633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D6A87FF2B9FF37400794633 /* PeopleYouCanTrustClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeopleYouCanTrustClip.entitlements; sourceTree = "<group>"; };
-		6D6A88042B9FF37400794633 /* PeopleYouCanTrustClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleYouCanTrustClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D6A88082B9FF37400794633 /* PeopleYouCanTrustClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipTests.swift; sourceTree = "<group>"; };
-		6D6A880E2B9FF37400794633 /* PeopleYouCanTrustClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleYouCanTrustClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D6A88122B9FF37400794633 /* PeopleYouCanTrustClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipUITests.swift; sourceTree = "<group>"; };
-		6D6A88142B9FF37400794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleYouCanTrustClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DF63A0F2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThePeopleThatYouCanTrustI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF63A122B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePeopleThatYouCanTrustIApp.swift; sourceTree = "<group>"; };
 		6DF63A162B9D4D23000BC120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -199,30 +137,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D6A87F02B9FF37300794633 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48EBFF80CA2659D0BCF10E04 /* libPods-PeopleYouCanTrustClip.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A88012B9FF37400794633 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC9AA5C8B8990007FC69E9B0 /* libPods-PeopleYouCanTrustClipTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A880B2B9FF37400794633 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				929656132CCC38E4BAD2C2A9 /* libPods-PeopleYouCanTrustClipUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DF63A0C2B9D4D22000BC120 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,61 +183,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6D6A87A92B9FF1D700794633 /* PeopleYouCanTrustClip */ = {
+		6D57AD742BB23F5E00124D99 /* NoNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A87AA2B9FF1D700794633 /* PeopleYouCanTrustClipApp.swift */,
-				6D6A87AE2B9FF1D900794633 /* Assets.xcassets */,
-				6D6A87B82B9FF1D900794633 /* Info.plist */,
-				6D6A87B92B9FF1D900794633 /* PeopleYouCanTrustClip.entitlements */,
-				6D6A87B52B9FF1D900794633 /* PeopleYouCanTrustClip.xcdatamodeld */,
+				6D6A87752B9E210A00794633 /* NetworkCheck.swift */,
+				6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */,
 			);
-			path = PeopleYouCanTrustClip;
+			path = NoNetwork;
 			sourceTree = "<group>";
 		};
-		6D6A87C12B9FF1D900794633 /* PeopleYouCanTrustClipTests */ = {
+		6D57AD752BB23F8300124D99 /* imageViews */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A87C22B9FF1D900794633 /* PeopleYouCanTrustClipTests.swift */,
+				6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */,
+				6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */,
+				6D14A53C2BB0BE8300AB7F46 /* SearchingImageView.swift */,
+				6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */,
 			);
-			path = PeopleYouCanTrustClipTests;
-			sourceTree = "<group>";
-		};
-		6D6A87CB2B9FF1D900794633 /* PeopleYouCanTrustClipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6D6A87CC2B9FF1D900794633 /* PeopleYouCanTrustClipUITests.swift */,
-				6D6A87CE2B9FF1D900794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift */,
-			);
-			path = PeopleYouCanTrustClipUITests;
-			sourceTree = "<group>";
-		};
-		6D6A87F42B9FF37300794633 /* PeopleYouCanTrustClip */ = {
-			isa = PBXGroup;
-			children = (
-				6D6A87F52B9FF37300794633 /* PeopleYouCanTrustClipApp.swift */,
-				6D6A87F92B9FF37400794633 /* Assets.xcassets */,
-				6D6A87FE2B9FF37400794633 /* Info.plist */,
-				6D6A87FF2B9FF37400794633 /* PeopleYouCanTrustClip.entitlements */,
-			);
-			path = PeopleYouCanTrustClip;
-			sourceTree = "<group>";
-		};
-		6D6A88072B9FF37400794633 /* PeopleYouCanTrustClipTests */ = {
-			isa = PBXGroup;
-			children = (
-				6D6A88082B9FF37400794633 /* PeopleYouCanTrustClipTests.swift */,
-			);
-			path = PeopleYouCanTrustClipTests;
-			sourceTree = "<group>";
-		};
-		6D6A88112B9FF37400794633 /* PeopleYouCanTrustClipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6D6A88122B9FF37400794633 /* PeopleYouCanTrustClipUITests.swift */,
-				6D6A88142B9FF37400794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift */,
-			);
-			path = PeopleYouCanTrustClipUITests;
+			path = imageViews;
 			sourceTree = "<group>";
 		};
 		6DF63A062B9D4D22000BC120 = {
@@ -332,12 +209,6 @@
 				6DF63A112B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */,
 				6DF63A222B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests */,
 				6DF63A2C2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests */,
-				6D6A87A92B9FF1D700794633 /* PeopleYouCanTrustClip */,
-				6D6A87C12B9FF1D900794633 /* PeopleYouCanTrustClipTests */,
-				6D6A87CB2B9FF1D900794633 /* PeopleYouCanTrustClipUITests */,
-				6D6A87F42B9FF37300794633 /* PeopleYouCanTrustClip */,
-				6D6A88072B9FF37400794633 /* PeopleYouCanTrustClipTests */,
-				6D6A88112B9FF37400794633 /* PeopleYouCanTrustClipUITests */,
 				6DF63A102B9D4D22000BC120 /* Products */,
 				30B0EB4A7D26F2EDDB494EB2 /* Pods */,
 				E34205DAA89F4D11E0B1CEB0 /* Frameworks */,
@@ -350,9 +221,6 @@
 				6DF63A0F2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI.app */,
 				6DF63A1F2B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.xctest */,
 				6DF63A292B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.xctest */,
-				6D6A87F32B9FF37300794633 /* PeopleYouCanTrustClip.app */,
-				6D6A88042B9FF37400794633 /* PeopleYouCanTrustClipTests.xctest */,
-				6D6A880E2B9FF37400794633 /* PeopleYouCanTrustClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,11 +236,10 @@
 				6DF63A412B9D4E90000BC120 /* fonts */,
 				6DF63A3D2B9D4E3F000BC120 /* ui */,
 				6DF63A3C2B9D4E32000BC120 /* api */,
-				6D6A87752B9E210A00794633 /* NetworkCheck.swift */,
 				6D6A87772B9E213700794633 /* PopupKeyboard.swift */,
-				6DF63A162B9D4D23000BC120 /* Assets.xcassets */,
-				6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */,
+				6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */,
 				6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */,
+				6DF63A162B9D4D23000BC120 /* Assets.xcassets */,
 			);
 			path = ThePeopleThatYouCanTrustI;
 			sourceTree = "<group>";
@@ -406,6 +273,7 @@
 		6DF63A3D2B9D4E3F000BC120 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				6D57AD742BB23F5E00124D99 /* NoNetwork */,
 				6DF63A3F2B9D4E7B000BC120 /* home */,
 				6DF63A3E2B9D4E47000BC120 /* companies */,
 			);
@@ -417,9 +285,9 @@
 			children = (
 				6D6A87872B9E219900794633 /* CompanyList.swift */,
 				6D6A87892B9E21A000794633 /* CompaniesView.swift */,
-				6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */,
 				6D6A878D2B9E21C400794633 /* SearchingCompaniesView.swift */,
-				6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */,
+				6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */,
+				6D57AD752BB23F8300124D99 /* imageViews */,
 			);
 			path = companies;
 			sourceTree = "<group>";
@@ -459,7 +327,7 @@
 		6DF63A422B9D4EB4000BC120 /* sideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A87792B9E213F00794633 /* Sidebar.swift */,
+				6D57AD6E2BB1F2D800124D99 /* NavDrawer.swift */,
 				6D6A877B2B9E215E00794633 /* SidebarView.swift */,
 				6D6A877D2B9E216B00794633 /* SidebarRowType.swift */,
 			);
@@ -482,62 +350,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D6A87F22B9FF37300794633 /* PeopleYouCanTrustClip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D6A88192B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClip" */;
-			buildPhases = (
-				129735A3A2F2051AC77983EF /* [CP] Check Pods Manifest.lock */,
-				6D6A87EF2B9FF37300794633 /* Sources */,
-				6D6A87F02B9FF37300794633 /* Frameworks */,
-				6D6A87F12B9FF37300794633 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PeopleYouCanTrustClip;
-			productName = PeopleYouCanTrustClip;
-			productReference = 6D6A87F32B9FF37300794633 /* PeopleYouCanTrustClip.app */;
-			productType = "com.apple.product-type.application.on-demand-install-capable";
-		};
-		6D6A88032B9FF37400794633 /* PeopleYouCanTrustClipTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D6A881C2B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClipTests" */;
-			buildPhases = (
-				FBBB7A2C1502DE72D84A0924 /* [CP] Check Pods Manifest.lock */,
-				6D6A88002B9FF37400794633 /* Sources */,
-				6D6A88012B9FF37400794633 /* Frameworks */,
-				6D6A88022B9FF37400794633 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D6A88062B9FF37400794633 /* PBXTargetDependency */,
-			);
-			name = PeopleYouCanTrustClipTests;
-			productName = PeopleYouCanTrustClipTests;
-			productReference = 6D6A88042B9FF37400794633 /* PeopleYouCanTrustClipTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6D6A880D2B9FF37400794633 /* PeopleYouCanTrustClipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D6A881F2B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClipUITests" */;
-			buildPhases = (
-				95D8C5BFDC82D00F737D7F0E /* [CP] Check Pods Manifest.lock */,
-				6D6A880A2B9FF37400794633 /* Sources */,
-				6D6A880B2B9FF37400794633 /* Frameworks */,
-				6D6A880C2B9FF37400794633 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D6A88102B9FF37400794633 /* PBXTargetDependency */,
-			);
-			name = PeopleYouCanTrustClipUITests;
-			productName = PeopleYouCanTrustClipUITests;
-			productReference = 6D6A880E2B9FF37400794633 /* PeopleYouCanTrustClipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF63A332B9D4D24000BC120 /* Build configuration list for PBXNativeTarget "ThePeopleThatYouCanTrustI" */;
@@ -551,7 +363,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D6A88172B9FF37400794633 /* PBXTargetDependency */,
 			);
 			name = ThePeopleThatYouCanTrustI;
 			productName = ThePeopleThatYouCanTrustI;
@@ -606,17 +417,6 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					6D6A87F22B9FF37300794633 = {
-						CreatedOnToolsVersion = 15.0.1;
-					};
-					6D6A88032B9FF37400794633 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 6D6A87F22B9FF37300794633;
-					};
-					6D6A880D2B9FF37400794633 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 6D6A87F22B9FF37300794633;
-					};
 					6DF63A0E2B9D4D22000BC120 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -646,39 +446,11 @@
 				6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */,
 				6DF63A1E2B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests */,
 				6DF63A282B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests */,
-				6D6A87F22B9FF37300794633 /* PeopleYouCanTrustClip */,
-				6D6A88032B9FF37400794633 /* PeopleYouCanTrustClipTests */,
-				6D6A880D2B9FF37400794633 /* PeopleYouCanTrustClipUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D6A87F12B9FF37300794633 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D56FD662BA015FF0013404E /* ProtestGuerrilla-Regular.ttf in Resources */,
-				6D56FD642BA014570013404E /* BungeeSpice-Regular.ttf in Resources */,
-				6D56FD652BA015940013404E /* PermanentMarker-Regular.ttf in Resources */,
-				6D56FD672BA097620013404E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A88022B9FF37400794633 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A880C2B9FF37400794633 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DF63A0D2B9D4D22000BC120 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -711,28 +483,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		129735A3A2F2051AC77983EF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PeopleYouCanTrustClip-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4A1E2B41D2EA9A2917550B20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -777,28 +527,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95D8C5BFDC82D00F737D7F0E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PeopleYouCanTrustClipUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A2C1A4860E399F6A368775EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -821,94 +549,33 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBBB7A2C1502DE72D84A0924 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PeopleYouCanTrustClipTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D6A87EF2B9FF37300794633 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D6A882E2B9FF3A100794633 /* CustomSearchBar.swift in Sources */,
-				6D6A882F2B9FF3A800794633 /* ApiFetchHandler.swift in Sources */,
-				6D6A88312B9FF3AE00794633 /* NetworkCheck.swift in Sources */,
-				6D6A88322B9FF3B000794633 /* PopupKeyboard.swift in Sources */,
-				6D6A88292B9FF39400794633 /* HomeView.swift in Sources */,
-				6D6A88262B9FF38800794633 /* SidebarRowType.swift in Sources */,
-				6D6A88282B9FF38E00794633 /* Sidebar.swift in Sources */,
-				6D6A88272B9FF38B00794633 /* SidebarView.swift in Sources */,
-				6D4C54CF2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */,
-				6D6A88232B9FF37B00794633 /* InjectionAnn.swift in Sources */,
-				6D6A88252B9FF38500794633 /* MainScreen.swift in Sources */,
-				6D6A87F62B9FF37300794633 /* PeopleYouCanTrustClipApp.swift in Sources */,
-				6D6A882C2B9FF39C00794633 /* DefaultCompaniesView.swift in Sources */,
-				6D4C54D22BAE0045008DDDF1 /* CustomColor.swift in Sources */,
-				6D6A88242B9FF38200794633 /* NavManager.swift in Sources */,
-				6D6A88302B9FF3AB00794633 /* AboutUsNetworkCall.swift in Sources */,
-				6D6A882B2B9FF39900794633 /* CompaniesView.swift in Sources */,
-				6D6A882D2B9FF39E00794633 /* SearchingCompaniesView.swift in Sources */,
-				6D6A882A2B9FF39700794633 /* CompanyList.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A88002B9FF37400794633 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D6A88092B9FF37400794633 /* PeopleYouCanTrustClipTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6A880A2B9FF37400794633 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D6A88132B9FF37400794633 /* PeopleYouCanTrustClipUITests.swift in Sources */,
-				6D6A88152B9FF37400794633 /* PeopleYouCanTrustClipUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DF63A0B2B9D4D22000BC120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D6A877E2B9E216B00794633 /* SidebarRowType.swift in Sources */,
-				6D6A877A2B9E213F00794633 /* Sidebar.swift in Sources */,
+				6D14A5342BB0B27C00AB7F46 /* ImageLoader.swift in Sources */,
 				6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */,
 				6D6A87842B9E218700794633 /* MainScreen.swift in Sources */,
 				6D6A87822B9E217800794633 /* NavManager.swift in Sources */,
 				6D6A878C2B9E21B000794633 /* DefaultCompaniesView.swift in Sources */,
 				6D6A87902B9E21D100794633 /* CustomSearchBar.swift in Sources */,
 				6D6A87922B9E21DC00794633 /* ApiFetchHandler.swift in Sources */,
+				6D57AD6F2BB1F2D800124D99 /* NavDrawer.swift in Sources */,
 				6D4C54CE2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */,
 				6D6A87862B9E219100794633 /* HomeView.swift in Sources */,
 				6DF63A132B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift in Sources */,
+				6D14A53D2BB0BE8300AB7F46 /* SearchingImageView.swift in Sources */,
+				6D14A5372BB0B2AD00AB7F46 /* ImageCache.swift in Sources */,
 				6D6A87882B9E219900794633 /* CompanyList.swift in Sources */,
 				6D6A87762B9E210A00794633 /* NetworkCheck.swift in Sources */,
 				6D4C54D12BAE0045008DDDF1 /* CustomColor.swift in Sources */,
 				6D6A87802B9E217200794633 /* InjectionAnn.swift in Sources */,
 				6D6A878A2B9E21A000794633 /* CompaniesView.swift in Sources */,
+				6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */,
 				6D6A87782B9E213700794633 /* PopupKeyboard.swift in Sources */,
 				6D6A878E2B9E21C400794633 /* SearchingCompaniesView.swift in Sources */,
 				6D6A877C2B9E215E00794633 /* SidebarView.swift in Sources */,
@@ -935,21 +602,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D6A88062B9FF37400794633 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D6A87F22B9FF37300794633 /* PeopleYouCanTrustClip */;
-			targetProxy = 6D6A88052B9FF37400794633 /* PBXContainerItemProxy */;
-		};
-		6D6A88102B9FF37400794633 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D6A87F22B9FF37300794633 /* PeopleYouCanTrustClip */;
-			targetProxy = 6D6A880F2B9FF37400794633 /* PBXContainerItemProxy */;
-		};
-		6D6A88172B9FF37400794633 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D6A87F22B9FF37300794633 /* PeopleYouCanTrustClip */;
-			targetProxy = 6D6A88162B9FF37400794633 /* PBXContainerItemProxy */;
-		};
 		6DF63A212B9D4D24000BC120 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */;
@@ -963,158 +615,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6D6A881A2B9FF37400794633 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 300E3C57A86EAE9EABA022D4 /* Pods-PeopleYouCanTrustClip.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PeopleYouCanTrustClip/PeopleYouCanTrustClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = Y95747F67U;
-				ENABLE_PREVIEWS = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeopleYouCanTrustClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PeopleYouCanTrustClip;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.Clip;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.blue.panthers.ThePeopleThatYouCanTrustI.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		6D6A881B2B9FF37400794633 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C731C2B7CE9EC7B3CDB3BCA7 /* Pods-PeopleYouCanTrustClip.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PeopleYouCanTrustClip/PeopleYouCanTrustClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = Y95747F67U;
-				ENABLE_PREVIEWS = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeopleYouCanTrustClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PeopleYouCanTrustClip;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.Clip;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.blue.panthers.ThePeopleThatYouCanTrustI.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		6D6A881D2B9FF37400794633 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 852FE995B8F7E03848FFADF1 /* Pods-PeopleYouCanTrustClipTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.PeopleYouCanTrustClipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleYouCanTrustClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeopleYouCanTrustClip";
-			};
-			name = Debug;
-		};
-		6D6A881E2B9FF37400794633 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0A5E634F3560E4DA59DC96C /* Pods-PeopleYouCanTrustClipTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.PeopleYouCanTrustClipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleYouCanTrustClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeopleYouCanTrustClip";
-			};
-			name = Release;
-		};
-		6D6A88202B9FF37400794633 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14169826C66A6E0CD60EC311 /* Pods-PeopleYouCanTrustClipUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.PeopleYouCanTrustClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PeopleYouCanTrustClip;
-			};
-			name = Debug;
-		};
-		6D6A88212B9FF37400794633 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6401191097ED287E6ADD64E9 /* Pods-PeopleYouCanTrustClipUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.PeopleYouCanTrustClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PeopleYouCanTrustClip;
-			};
-			name = Release;
-		};
 		6DF63A312B9D4D24000BC120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1249,6 +749,7 @@
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThePeopleThatYouCanTrustI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1285,6 +786,7 @@
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThePeopleThatYouCanTrustI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1389,33 +891,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D6A88192B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D6A881A2B9FF37400794633 /* Debug */,
-				6D6A881B2B9FF37400794633 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6D6A881C2B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClipTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D6A881D2B9FF37400794633 /* Debug */,
-				6D6A881E2B9FF37400794633 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6D6A881F2B9FF37400794633 /* Build configuration list for PBXNativeTarget "PeopleYouCanTrustClipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D6A88202B9FF37400794633 /* Debug */,
-				6D6A88212B9FF37400794633 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6DF63A0A2B9D4D22000BC120 /* Build configuration list for PBXProject "ThePeopleThatYouCanTrustI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1453,19 +928,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6D6A87B52B9FF1D900794633 /* PeopleYouCanTrustClip.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6D6A87B62B9FF1D900794633 /* PeopleYouCanTrustClip.xcdatamodel */,
-			);
-			currentVersion = 6D6A87B62B9FF1D900794633 /* PeopleYouCanTrustClip.xcdatamodel */;
-			path = PeopleYouCanTrustClip.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6DF63A072B9D4D22000BC120 /* Project object */;
 }

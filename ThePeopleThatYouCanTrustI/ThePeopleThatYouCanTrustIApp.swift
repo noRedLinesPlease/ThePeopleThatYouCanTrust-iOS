@@ -15,12 +15,7 @@ struct ThePeopleThatYouCanTrustIApp: App {
     var body: some Scene {
         WindowGroup {
                 MainScreen()
-                    .environmentObject(networkMonitor)        
-           
-//                .environment(
-//                    \.colorScheme,UITraitCollection.current.userInterfaceStyle == .dark ?.dark : .light
-//                )
-            //.environment(\.colorScheme, phoneDarkMode == .dark ? .dark : .light)
+                    .environmentObject(networkMonitor)
         }
     }
 }

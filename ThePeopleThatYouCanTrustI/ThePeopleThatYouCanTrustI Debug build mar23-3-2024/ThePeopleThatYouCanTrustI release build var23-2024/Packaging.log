@@ -1,0 +1,168 @@
+2024-03-23 19:19:44 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x3977dbf70; archive(resolved)="<IDEArchive: 0x60001699d9e0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x3977dbf70; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x3977bffc0; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x34419c6d0; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393bd8420; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393beb650; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393beaa20; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393bea7f0; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393be9e70; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393942340; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600001262580; teamID='Y95747F67U', teamName='Brittany Marbaker', teamType='Individual', username='englandchick90@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x393be9400; archive = "<IDEArchive: 0x60001699d9e0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="(null)">
+	<IDEDistributionContext: 0x393b979a0; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="(null)">
+	<IDEDistributionContext: 0x393b97570; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="(null)">
+	<IDEDistributionContext: 0x393bf87c0; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600004eed460>", team="(null)">
+	<IDEDistributionContext: 0x39305f950; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x39771d770; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x3939453b0; archive = "<IDEArchive: 0x6000168e1f20>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x3977dbf70>
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCopyItemStep
+2024-03-23 19:19:44 +0000  Running /usr/bin/ditto '-V' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app'
+2024-03-23 19:19:44 +0000  >>> Copying /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app 
+2024-03-23 19:19:44 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-03-23 19:19:44 +0000  7055 bytes for ./_CodeSignature/CodeResources
+2024-03-23 19:19:44 +0000  copying file ./Kurale-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  221584 bytes for ./Kurale-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-03-23 19:19:44 +0000  13913 bytes for ./AppIcon60x60@2x.png
+2024-03-23 19:19:44 +0000  copying file ./ThePeopleThatYouCanTrustI ... 
+2024-03-23 19:19:44 +0000  2283488 bytes for ./ThePeopleThatYouCanTrustI
+2024-03-23 19:19:44 +0000  copying file ./Caveat-VariableFont.ttf ... 
+2024-03-23 19:19:44 +0000  393092 bytes for ./Caveat-VariableFont.ttf
+2024-03-23 19:19:44 +0000  copying file ./BungeeSpice-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  501468 bytes for ./BungeeSpice-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./PermanentMarker-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  73620 bytes for ./PermanentMarker-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Assets.car ... 
+2024-03-23 19:19:44 +0000  854704 bytes for ./Assets.car
+2024-03-23 19:19:44 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-03-23 19:19:44 +0000  16089 bytes for ./AppIcon76x76@2x~ipad.png
+2024-03-23 19:19:44 +0000  copying file ./Salsa-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  47220 bytes for ./Salsa-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Truculenta-SemiBold.ttf ... 
+2024-03-23 19:19:44 +0000  181592 bytes for ./Truculenta-SemiBold.ttf
+2024-03-23 19:19:44 +0000  copying file ./embedded.mobileprovision ... 
+2024-03-23 19:19:44 +0000  13108 bytes for ./embedded.mobileprovision
+2024-03-23 19:19:44 +0000  copying file ./ProtestGuerrilla-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  84512 bytes for ./ProtestGuerrilla-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Info.plist ... 
+2024-03-23 19:19:44 +0000  1636 bytes for ./Info.plist
+2024-03-23 19:19:44 +0000  copying file ./PkgInfo ... 
+2024-03-23 19:19:44 +0000  8 bytes for ./PkgInfo
+2024-03-23 19:19:44 +0000  /usr/bin/ditto exited with 0
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionInfoPlistStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionSymbolsStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionAppThinningStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionArchThinningStep
+2024-03-23 19:19:44 +0000  Item /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-03-23 19:19:44 +0000  Archs to thin for item /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app are ["arm64e"]
+2024-03-23 19:19:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI' '-verify_arch' 'arm64e'
+2024-03-23 19:19:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-03-23 19:19:44 +0000  Skipping architecture thinning for item "ThePeopleThatYouCanTrustI" because arch "arm64e" wasn't found
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionODRStep
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionStripXattrsStep
+2024-03-23 19:19:44 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCodesignStep
+2024-03-23 19:19:44 +0000  Entitlements for <IDEDistributionItem: 0x600016982e80; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000be0d170:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001ae0e990; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600007896d00; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000be2fde0:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-23 19:19:44 +0000  Associated App Clip Identifiers Filter: ThePeopleThatYouCanTrustI.app has 0 associated app clip identifiers
+2024-03-23 19:19:44 +0000  Entitlements for <IDEDistributionItem: 0x600016982e80; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000be0d170:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001ae0e990; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000786e340; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000be2fde0:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 0;
+}
+2024-03-23 19:19:44 +0000  Writing entitlements for <IDEDistributionItem: 0x600016982e80; bundleID='com.blue.panthers.ThePeopleThatYouCanTrustI', path='<DVTFilePath:0x60000be0d170:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001ae0e990; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600007895980; name='Apple Development: Brittany Marbaker (XU52569XKV)', hash='13DA009735A5D119DDEB70C4BDAF448F5F291DA9', serialNumber='6D9542B108EA113C6B7C1530AA263FE', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-08 23:26:03 +0000''>', entitlements='{
+    "application-identifier" = "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI";
+    "com.apple.developer.associated-appclip-app-identifiers" =     (
+        "Y95747F67U.com.blue.panthers.ThePeopleThatYouCanTrustI.Clip"
+    );
+    "com.apple.developer.team-identifier" = Y95747F67U;
+    "get-task-allow" = 1;
+}', teamID='Y95747F67U', identifier='com.blue.panthers.ThePeopleThatYouCanTrustI', executablePath='<DVTFilePath:0x60000be2fde0:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/AppClipRemoverSupport.~~~LLevVG/ThePeopleThatYouCanTrustI 3-23-24, 3.19 PM.xcarchive/Products/Applications/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI'>', hardenedRuntime='0'>'> to: /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/entitlements~~~6gptx8
+2024-03-23 19:19:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '4435B8D0CC317972274943235B3CEB187C1A9CD3' '--entitlements' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/entitlements~~~6gptx8' '--generate-entitlement-der' '--strip-disallowed-xattrs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app'
+2024-03-23 19:19:44 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app: replacing existing signature
+2024-03-23 19:19:44 +0000  /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app: signed app bundle with Mach-O thin (arm64) [com.blue.panthers.ThePeopleThatYouCanTrustI]
+2024-03-23 19:19:44 +0000  /usr/bin/codesign exited with 0
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionZipODRItemStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCreateIPAStep
+2024-03-23 19:19:44 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root' '/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Packages/ThePeopleThatYouCanTrustI.ipa'
+2024-03-23 19:19:44 +0000  >>> Copying /var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root 
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/_CodeSignature/CodeResources ... 
+2024-03-23 19:19:44 +0000  4395 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/_CodeSignature/CodeResources
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Kurale-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  221584 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Kurale-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon60x60@2x.png ... 
+2024-03-23 19:19:44 +0000  13913 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon60x60@2x.png
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI ... 
+2024-03-23 19:19:44 +0000  2283200 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/ThePeopleThatYouCanTrustI
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Caveat-VariableFont.ttf ... 
+2024-03-23 19:19:44 +0000  393092 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Caveat-VariableFont.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/BungeeSpice-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  501468 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/BungeeSpice-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/PermanentMarker-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  73620 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/PermanentMarker-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Assets.car ... 
+2024-03-23 19:19:44 +0000  854704 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Assets.car
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon76x76@2x~ipad.png ... 
+2024-03-23 19:19:44 +0000  16089 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/AppIcon76x76@2x~ipad.png
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Salsa-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  47220 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Salsa-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Truculenta-SemiBold.ttf ... 
+2024-03-23 19:19:44 +0000  181592 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Truculenta-SemiBold.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/embedded.mobileprovision ... 
+2024-03-23 19:19:44 +0000  15196 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/embedded.mobileprovision
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/ProtestGuerrilla-Regular.ttf ... 
+2024-03-23 19:19:44 +0000  84512 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/ProtestGuerrilla-Regular.ttf
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/Info.plist ... 
+2024-03-23 19:19:44 +0000  1636 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/Info.plist
+2024-03-23 19:19:44 +0000  copying file ./Payload/ThePeopleThatYouCanTrustI.app/PkgInfo ... 
+2024-03-23 19:19:44 +0000  8 bytes for ./Payload/ThePeopleThatYouCanTrustI.app/PkgInfo
+2024-03-23 19:19:44 +0000  /usr/bin/ditto exited with 0
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-03-23 19:19:44 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-03-23 19:19:44 +0000  IDEDistributionItem init <DVTFilePath:0x60000be677b0:'/var/folders/lh/vnm7xzmd4_n5_xkh0r8zhwb40000gn/T/XcodeDistPipeline.~~~JN2eNm/Root/Payload/ThePeopleThatYouCanTrustI.app'>
+2024-03-23 19:19:44 +0000  Processing step: IDEDistributionCreateManifestStep

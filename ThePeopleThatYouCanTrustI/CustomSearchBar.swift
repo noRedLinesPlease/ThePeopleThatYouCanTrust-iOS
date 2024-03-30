@@ -25,7 +25,7 @@ struct CustomSearchBar : View {
                         perform: { value in
                         self.showCancelButton = isFocused
                     })
-                    .foregroundColor(.black)
+                    .foregroundStyle(.black)
                     .onSubmit {
                         isFocused = false
                     }
@@ -33,9 +33,12 @@ struct CustomSearchBar : View {
                 Button(action: {
                     self.searchText = ""
 
-                }) {
+                }
+                ) {
                     Image(systemName: "xmark.circle.fill").opacity(searchText == "" ? 0 : 1)
                 }
+                .buttonStyle(PlainButtonStyle())
+                
             }
             .onAppear { self.kGuardian.addObserver() }
                 .onDisappear { self.kGuardian.removeObserver() }
@@ -54,11 +57,12 @@ struct CustomSearchBar : View {
                     print("Hit Cancel")
                     
                 }
+                .buttonStyle(PlainButtonStyle())
                 .foregroundColor(Color(.systemBlue))
+                .background(Color.clear)
             }
         }
         .padding(.horizontal)
-        //.navigationBarHidden(showCancelButton)
     }
     
     func getIsFocused() -> Bool {

@@ -20,12 +20,14 @@ class APIFetchHandler: ObservableObject {
             responseData in
             do {
                 let companiesFromAPI = try JSONDecoder().decode(CompanyList.self, from: responseData.data!)
-            self.companies = companiesFromAPI.companies
+                
+                self.companies = companiesFromAPI.companies
             } catch {
                 print("Error with parsing")
             }
             completion(self.companies, false)
         }
+        
         task.resume()
     }
 }

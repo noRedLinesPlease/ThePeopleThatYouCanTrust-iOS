@@ -16,19 +16,11 @@ func SearchingCompaniesListView(
         id: \.self
     ) { company in
         VStack(alignment: .center, spacing: 0) {
-            let logoImageSize = "?format=200w"
+            let logoImageSize = "?format=300w"
             let logoUrl = (company.companyLogoList.first?.logoUrl ?? "") + (logoImageSize)
             
             HStack(alignment: .center, spacing: 15) {
-                AsyncImage(url: URL(string: logoUrl)) { image in
-                    image
-                        .resizable()
-                        .clipped()
-                        .padding(3)
-                        .frame(maxWidth: 60, maxHeight: 60, alignment: .center)
-                } placeholder: {
-                    ProgressView()
-                }.onAppear()
+                SearchImageView(withURL: logoUrl)
                 
                 Text(company.companyName).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 16))
             }

@@ -47,7 +47,7 @@ struct CompaniesView: View {
                 .padding(.bottom, 6)
                 .background(Color.darkModeOrNot)
             
-            Text("Search by company name or catergory")
+            Text("Search by company name or category")
                 .font(.system(size: 14))
                 .background(Color.darkModeOrNot)
             
@@ -71,6 +71,7 @@ struct CompaniesView: View {
         }
     }
     
+    
     func filterCompanies() -> some View {
         List {
             if(filteredList.isEmpty) {
@@ -79,7 +80,9 @@ struct CompaniesView: View {
                 if(isFocused && !searchBarText.isEmpty) {
                     SearchingCompaniesListView(filteredList1: filteredList, openUrl: openURL)
                 } else {
+                    
                     DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
+                    
                 }
             }
         }
@@ -89,6 +92,6 @@ struct CompaniesView: View {
         .listRowSeparator(/*@START_MENU_TOKEN@*/.visible/*@END_MENU_TOKEN@*/)
         .listRowBackground(Color.darkModeOrNot)
     }
+    
 }
-
 

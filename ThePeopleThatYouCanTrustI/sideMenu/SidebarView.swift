@@ -13,19 +13,9 @@ struct SideBarView : View {
     @Binding var isSidebarVisible: Bool
     @ObservedObject var navigationManager : NavigationManager
     
-    
-    var sideBarWidth = UIScreen.main.bounds.size.width * 0.6
-    var sideBarHeight = UIScreen.main.bounds.size.height * 0.1
-    var menuColor: Color = Color(hex: "FF6200EE")
+   var sideBarWidth = UIScreen.main.bounds.size.width * 0.5
     
     var body: some View {
-        ZStack {
-            content
-        }
-        //.edgesIgnoringSafeArea(.all)
-    }
-    
-    var content: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 10) {
                 ForEach(SideBarRowType.allCases, id: \.self) {
@@ -38,21 +28,17 @@ struct SideBarView : View {
                         navigationManager.pageSelection.value = row.self
                         selectedSideMenuTab = row
                         isSidebarVisible.toggle()
-                    }
+                    }        
+
                 }
             }
             .padding(.top, 5)
             .padding(.horizontal, 40)
             .padding(.bottom, 10)
-            .background(Color.darkModeOrNot)
+            .background(Color.sidemenuDarkOrNot)
             
         }
-        .fixedSize()
-        //.frame(width: sideBarWidth, height: sideBarHeight)
-        .offset(x: isSidebarVisible ? -40 : -sideBarWidth, y: isSidebarVisible ? -40 : -sideBarHeight)
-        .animation(.default, value: isSidebarVisible)
         .padding(.leading, 14)
-        //.padding(.top, 30)
         
     }
     
@@ -72,28 +58,27 @@ struct SideBarView : View {
                         Image(systemName: imageName)
                             .resizable()
                             .renderingMode(.template)
-                            .foregroundColor(isSelected ? Color.sidemenuDarkOrNot : Color.sideMenuTextDark)
+                            .foregroundColor(isSelected ? Color.darkModeSideText : Color.sideMenuTextDark)
                             .frame(width: 18, height: 18)
                     }
                     .frame(width: 28, height: 20)
                     Text(title)
                         .font(.system(size: 12,weight: .bold))
                         .foregroundStyle(
-                            isSelected ? Color.sidemenuDarkOrNot : Color.sideMenuTextDark
-                        )
+                            isSelected ? Color.darkModeSideText : Color.sideMenuTextDark)
                     Spacer()
                 }
             }
         }
+        .buttonStyle(PlainButtonStyle())
         .frame(width: sideBarWidth)
         .padding(.bottom, 6)
         .padding(.top, 6)
         .background(
-            isSelected ? Color.sidemenuSelectedDark : Color.darkModeOrNot
-//            LinearGradient(colors: [isSelected ? .purple.opacity(0.5) : .white, .white],
-//                           startPoint: .leading, endPoint: .trailing)
+            isSelected ? Color.sidemenuSelectedDark : Color.sidemenuDarkOrNot
         )
-        .clipShape(RoundedRectangle(cornerSize: CGSize(width: 5, height: 5)))
+        .clipShape(RoundedRectangle(cornerSize: CGSize(width: 6, height: 5)))
+        
     }
 }
 

@@ -18,16 +18,4 @@ target 'ThePeopleThatYouCanTrustIUITests' do
     pod 'OCMock', '~> 2.0.1'
 end
 
-target 'PeopleYouCanTrustClip' do
-	shared_pods
-end
-
-target 'PeopleYouCanTrustClipTests' do
-	 pod 'OCMock', '~> 2.0.1'
-end
-
-target 'PeopleYouCanTrustClipUITests' do
-	 pod 'OCMock', '~> 2.0.1'
-end
-
 

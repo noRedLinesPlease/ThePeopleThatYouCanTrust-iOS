@@ -17,7 +17,6 @@ class AboutUsNetworkCall: ObservableObject {
     @Published var headerBody: String = "No Body"
     @Published var subHeader: String = "No Body"
     @Published var subHeaderBody: String = "No Body"
-    //@Published var isLoaded: Bool = false
     let url = URL(string: "https://alligator-beige-t5e3.squarespace.com/")
     
     func getAboutUsContent(completion: @escaping (String, String, String, String, Bool) -> Void) {

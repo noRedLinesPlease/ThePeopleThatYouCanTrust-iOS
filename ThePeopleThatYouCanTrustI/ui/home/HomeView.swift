@@ -25,12 +25,12 @@ struct HomeView: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: 5) {
+            VStack(spacing: 4) {
                 Image(
                     "updatedLogo"
                 ).resizable()
                     .frame(width: 160, height: 160)
-            
+                
                 Divider()
                     .frame(width: .none, height: 1)
                     .overlay(.blue)
@@ -55,15 +55,13 @@ struct HomeView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxWidth: 120, maxHeight: 120)
-                        .padding()
                 }
                 
                 Text(headerBodyText)
                     .font(Font.custom("Truculenta-SemiBold", size: 17))
                     .multilineTextAlignment(.center)
-                    .padding(.bottom, 8)
-                    .padding()
-                                
+                    .padding(.bottom, 10)
+                
                 Text(subHeaderText)
                     .font(Font.custom("ProtestGuerrilla-Regular", size: 26))
                     .foregroundStyle(Color(hex: "#45C0C6"))
@@ -72,14 +70,15 @@ struct HomeView: View {
                     .font(Font.custom("Kurale-Regular", size: 15))
                     .multilineTextAlignment(.center)
                 
-                Button(action: {viewModel.navigationManager.pageSelection.send(.companies) }) {
+                Button(action: { viewModel.navigationManager.pageSelection.send(.companies) }) {
                     Text("Search companies")
                         .font(Font.custom("PermanentMarker-Regular", size: 15))
                         .foregroundStyle(.white)
-                }.background(Color(hex: "#45C0C6"))
-                    .buttonStyle(.bordered)
-                    .padding(.top, 16)
-                    .padding()
+                }
+                .background(Color(hex: "#45C0C6"))
+                .buttonStyle(.bordered)
+                .padding(.top, 13)
+                .padding()
             }
             .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
             .onAppear {
