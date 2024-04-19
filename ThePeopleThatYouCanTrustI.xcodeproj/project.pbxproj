@@ -16,6 +16,8 @@
 		6D4C54D12BAE0045008DDDF1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */; };
 		6D56FD622BA012240013404E /* Truculenta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D56FD612BA012240013404E /* Truculenta-SemiBold.ttf */; };
 		6D57AD6F2BB1F2D800124D99 /* NavDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57AD6E2BB1F2D800124D99 /* NavDrawer.swift */; };
+		6D5ACE362BD010E9004844E5 /* ShareAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5ACE352BD010E9004844E5 /* ShareAppView.swift */; };
+		6D5ACE382BD2CDF9004844E5 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5ACE372BD2CDF9004844E5 /* CustomToast.swift */; };
 		6D6A876C2B9E1F1F00794633 /* Kurale-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A876B2B9E1F1F00794633 /* Kurale-Regular.ttf */; };
 		6D6A876E2B9E1F3D00794633 /* Salsa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A876D2B9E1F3D00794633 /* Salsa-Regular.ttf */; };
 		6D6A87722B9E20BA00794633 /* Caveat-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87712B9E20BA00794633 /* Caveat-VariableFont.ttf */; };
@@ -93,6 +95,8 @@
 		6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		6D56FD612BA012240013404E /* Truculenta-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Truculenta-SemiBold.ttf"; sourceTree = "<group>"; };
 		6D57AD6E2BB1F2D800124D99 /* NavDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawer.swift; sourceTree = "<group>"; };
+		6D5ACE352BD010E9004844E5 /* ShareAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppView.swift; sourceTree = "<group>"; };
+		6D5ACE372BD2CDF9004844E5 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
 		6D6A876B2B9E1F1F00794633 /* Kurale-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kurale-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A876D2B9E1F3D00794633 /* Salsa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salsa-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A87712B9E20BA00794633 /* Caveat-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-VariableFont.ttf"; sourceTree = "<group>"; };
@@ -183,13 +187,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6D57AD742BB23F5E00124D99 /* NoNetwork */ = {
+		6D57AD742BB23F5E00124D99 /* noNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				6D6A87752B9E210A00794633 /* NetworkCheck.swift */,
 				6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */,
 			);
-			path = NoNetwork;
+			path = noNetwork;
 			sourceTree = "<group>";
 		};
 		6D57AD752BB23F8300124D99 /* imageViews */ = {
@@ -201,6 +205,14 @@
 				6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */,
 			);
 			path = imageViews;
+			sourceTree = "<group>";
+		};
+		6D5ACE342BD010DD004844E5 /* shareApp */ = {
+			isa = PBXGroup;
+			children = (
+				6D5ACE352BD010E9004844E5 /* ShareAppView.swift */,
+			);
+			path = shareApp;
 			sourceTree = "<group>";
 		};
 		6DF63A062B9D4D22000BC120 = {
@@ -240,6 +252,7 @@
 				6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */,
 				6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */,
 				6DF63A162B9D4D23000BC120 /* Assets.xcassets */,
+				6D5ACE372BD2CDF9004844E5 /* CustomToast.swift */,
 			);
 			path = ThePeopleThatYouCanTrustI;
 			sourceTree = "<group>";
@@ -273,7 +286,8 @@
 		6DF63A3D2B9D4E3F000BC120 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				6D57AD742BB23F5E00124D99 /* NoNetwork */,
+				6D5ACE342BD010DD004844E5 /* shareApp */,
+				6D57AD742BB23F5E00124D99 /* noNetwork */,
 				6DF63A3F2B9D4E7B000BC120 /* home */,
 				6DF63A3E2B9D4E47000BC120 /* companies */,
 			);
@@ -560,6 +574,7 @@
 				6D14A5342BB0B27C00AB7F46 /* ImageLoader.swift in Sources */,
 				6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */,
 				6D6A87842B9E218700794633 /* MainScreen.swift in Sources */,
+				6D5ACE382BD2CDF9004844E5 /* CustomToast.swift in Sources */,
 				6D6A87822B9E217800794633 /* NavManager.swift in Sources */,
 				6D6A878C2B9E21B000794633 /* DefaultCompaniesView.swift in Sources */,
 				6D6A87902B9E21D100794633 /* CustomSearchBar.swift in Sources */,
@@ -568,6 +583,7 @@
 				6D4C54CE2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */,
 				6D6A87862B9E219100794633 /* HomeView.swift in Sources */,
 				6DF63A132B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift in Sources */,
+				6D5ACE362BD010E9004844E5 /* ShareAppView.swift in Sources */,
 				6D14A53D2BB0BE8300AB7F46 /* SearchingImageView.swift in Sources */,
 				6D14A5372BB0B2AD00AB7F46 /* ImageCache.swift in Sources */,
 				6D6A87882B9E219900794633 /* CompanyList.swift in Sources */,
@@ -760,7 +776,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				MERGEABLE_LIBRARY = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -797,7 +813,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				MERGEABLE_LIBRARY = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

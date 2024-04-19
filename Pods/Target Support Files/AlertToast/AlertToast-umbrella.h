@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_PeopleYouCanTrustClipVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_PeopleYouCanTrustClipVersionString[];
+FOUNDATION_EXPORT double AlertToastVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlertToastVersionString[];
 

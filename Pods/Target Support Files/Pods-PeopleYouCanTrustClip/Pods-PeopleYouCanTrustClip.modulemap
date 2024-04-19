@@ -1,6 +1,0 @@
-module Pods_PeopleYouCanTrustClip {
-  umbrella header "Pods-PeopleYouCanTrustClip-umbrella.h"
-
-  export *
-  module * { export * }
-}

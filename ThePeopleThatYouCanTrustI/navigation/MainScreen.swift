@@ -24,6 +24,8 @@ struct MainScreen: View {
                         HomeView()
                     case .companies:
                         CompaniesView()
+                    case .shareApp:
+                        ShareAppView()
                     }
                 }
                 .onReceive(navigationManager.pageSelection) { newValue in
