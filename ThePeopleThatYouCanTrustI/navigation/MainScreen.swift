@@ -11,7 +11,7 @@ struct MainScreen: View {
     @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
     
-    @State var selection: SideBarRowType = .home
+    @State var selection: SideBarRowType = .companies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
     

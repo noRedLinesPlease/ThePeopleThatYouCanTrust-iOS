@@ -5,6 +5,7 @@ def shared_pods
 	pod 'Alamofire'
 	pod 'SwiftSoup'
 	pod 'AlertToast'
+	pod 'ATAppUpdater'
 end
 
 target 'ThePeopleThatYouCanTrustI' do 

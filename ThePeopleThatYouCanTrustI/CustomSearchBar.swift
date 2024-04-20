@@ -18,14 +18,20 @@ struct CustomSearchBar : View {
             HStack {
                 Image(systemName: "magnifyingglass")
                 
-                TextField("Search", text: $searchText)
+                TextField(text: $searchText) {
+                    if #available(iOS 17.0, *) {
+                        Text("Search").foregroundStyle(.blue)
+                    } else {
+                        Text("Search").foregroundColor(.blue)
+                    }
+                }
                     .focused($isFocused, equals: true)
                     .onChange(
                         of: isFocused,
                         perform: { value in
                         self.showCancelButton = isFocused
                     })
-                    .foregroundStyle(.black)
+                    .foregroundStyle(Color.black)
                     .onSubmit {
                         isFocused = false
                     }

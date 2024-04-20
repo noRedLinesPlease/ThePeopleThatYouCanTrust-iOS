@@ -38,10 +38,9 @@ struct CompaniesView: View {
         VStack {
             Image(
                 ImageResource.updatedLogo
-                //"updatedLogo"
             ).resizable()
                 .frame(width: 160, height: 160)
-            Text("What type of service are you looking for?")
+            Text("What can we help you find today?")
                 .font(.system(size: 18))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .padding(.bottom, 6)

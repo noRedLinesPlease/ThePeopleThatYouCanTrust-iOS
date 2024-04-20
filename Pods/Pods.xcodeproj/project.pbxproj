@@ -285,7 +285,7 @@
 		2B2F6BB8C6D15077BB049187EEBDCF12 /* OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Source/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
 		2B6B93F434C74AD0691DB5E7A4D37719 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
 		2BA54A9497AE23140BB10DE8A7EB84DA /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+OCMAdditions.m"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
-		2C2B521948B2FEC4F23DDC33B652EC8E /* Pods-ThePeopleThatYouCanTrustI */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ThePeopleThatYouCanTrustI"; path = "libPods-ThePeopleThatYouCanTrustI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2B521948B2FEC4F23DDC33B652EC8E /* libPods-ThePeopleThatYouCanTrustI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD1EB69A1AAA8B6023F8D64B64F7171 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		2CF5027B9054A6C147BAD07F09E811E7 /* AlertToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertToast-umbrella.h"; sourceTree = "<group>"; };
 		2EBF5B301AC820C0CA369DBB6C2FEC0A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -317,12 +317,12 @@
 		56B9C2E2F7E26C430C96296E01030A9B /* OCMock-iOS16.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-iOS16.0-prefix.pch"; sourceTree = "<group>"; };
 		597659DE465447F2D458F26B6A76BD30 /* Pods-ThePeopleThatYouCanTrustIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThePeopleThatYouCanTrustIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C39675F74B6CA25564DC5B818C82F05 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Alamofire; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD59FDBDD36C763CD8D3DA2DDE9DFEC /* OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBoxedReturnValueProvider.m; path = Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = "<group>"; };
 		5E7DC0B7665089BE5F1CEA9F58337EB9 /* OCMock-iOS17.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OCMock-iOS17.0-prefix.pch"; path = "../OCMock-iOS17.0/OCMock-iOS17.0-prefix.pch"; sourceTree = "<group>"; };
 		5EDAC3C5B12F9D0229CCB267ED0CEE19 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		5EF112624893139DD02C288AA46B8B22 /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
-		5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SwiftSoup; path = libSwiftSoup.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F38EF8DCE7D46A354D1D1BBAC952903 /* libSwiftSoup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftSoup.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD2D6EB7E49BA9AED235F2712313225 /* Pods-ThePeopleThatYouCanTrustITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThePeopleThatYouCanTrustITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6040CEC2D8587A58ECD18DF800735E47 /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
 		604ACEDA309CED3C8ABE7F2D31E2903E /* OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCClassMockObject.h; path = Source/OCMock/OCClassMockObject.h; sourceTree = "<group>"; };
@@ -371,7 +371,7 @@
 		97AB5CBAB618A56B835E75ADEDE61C33 /* OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObserverRecorder.m; path = Source/OCMock/OCMObserverRecorder.m; sourceTree = "<group>"; };
 		9960F3B529F19BA6EC1275F48275F471 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		9AA826DB39E05B89EDC6FBE3FC99B3E0 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBA468CBCA0273ECBD12DB017583347 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		9E611B7A11927A27FE8127BC17BE6D82 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		A19A6DF4C8334BC255ECA380F243639E /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
@@ -547,7 +547,6 @@
 				AEAD87250DBB2263BD5E836C2B49A889 /* OCProtocolMockObject.m */,
 				51462B6C73EE7A4B6F4E1772FC8877BE /* Support Files */,
 			);
-			name = OCMock;
 			path = OCMock;
 			sourceTree = "<group>";
 		};
@@ -644,7 +643,6 @@
 				ED219C34974F4F466E0B1ABA617C78B1 /* Validation.swift */,
 				90AFC7C9D28C6C9370E4550CCA18BBCF /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -737,7 +735,6 @@
 				CB36A4DA053A2C5180BE5E7ACDC0B315 /* XmlTreeBuilder.swift */,
 				A75BF41A85080EE295C0D57921D0DB7D /* Support Files */,
 			);
-			name = SwiftSoup;
 			path = SwiftSoup;
 			sourceTree = "<group>";
 		};
@@ -792,21 +789,20 @@
 				22B4BC552DAB4FD5DC31387A59182BBF /* BlurView.swift */,
 				2DE68FF4509CFB064074C5F531438833 /* Support Files */,
 			);
-			name = AlertToast;
 			path = AlertToast;
 			sourceTree = "<group>";
 		};
 		C0E0ADDE27EE96A7928681E6D87D2CFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				5D797E9A5C5782CE845840781FA1CC81 /* libAlamofire.a */,
 				A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */,
 				86DC3FC360171B49DD4DA164C4090275 /* OCMock-iOS16.0 */,
 				F57C339FC75166B9D24CF14F17016C0D /* OCMock-iOS17.0 */,
-				2C2B521948B2FEC4F23DDC33B652EC8E /* Pods-ThePeopleThatYouCanTrustI */,
+				2C2B521948B2FEC4F23DDC33B652EC8E /* libPods-ThePeopleThatYouCanTrustI.a */,
 				EB6F40CB727C7F0F55224EB2FE2EDD98 /* Pods-ThePeopleThatYouCanTrustITests */,
 				B577E1D8B3E638FEA458A85B03BF14F8 /* Pods-ThePeopleThatYouCanTrustIUITests */,
-				5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup */,
+				5F38EF8DCE7D46A354D1D1BBAC952903 /* libSwiftSoup.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1009,7 +1005,7 @@
 			);
 			name = "Pods-ThePeopleThatYouCanTrustI";
 			productName = "Pods-ThePeopleThatYouCanTrustI";
-			productReference = 2C2B521948B2FEC4F23DDC33B652EC8E /* Pods-ThePeopleThatYouCanTrustI */;
+			productReference = 2C2B521948B2FEC4F23DDC33B652EC8E /* libPods-ThePeopleThatYouCanTrustI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */ = {
@@ -1045,7 +1041,7 @@
 			);
 			name = SwiftSoup;
 			productName = SwiftSoup;
-			productReference = 5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup */;
+			productReference = 5F38EF8DCE7D46A354D1D1BBAC952903 /* libSwiftSoup.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E4F2EE60943B5D46F8930AE4ADE46061 /* OCMock-iOS16.0 */ = {
@@ -1080,7 +1076,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* libAlamofire.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1467,7 +1463,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/SwiftSoup/SwiftSoup.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1668,7 +1664,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/Alamofire/Alamofire.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1763,7 +1759,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/SwiftSoup/SwiftSoup.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1860,7 +1856,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/Alamofire/Alamofire.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
