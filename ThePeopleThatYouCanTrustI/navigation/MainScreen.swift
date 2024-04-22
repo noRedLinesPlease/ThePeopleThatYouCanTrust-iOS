@@ -14,11 +14,16 @@ struct MainScreen: View {
     @State var selection: SideBarRowType = .companies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
+    @State var appNeedsToBeUpdated = true
     
     var body: some View {
         NavigationView {
-            if(networkMonitor.isConnected){
-                VStack {
+            VStack {
+                if(!networkMonitor.isConnected){
+                    NoNetworkView()
+                } else if (appNeedsToBeUpdated){
+                    AppUpateAlertView(appNeedsToBeUpdated: $appNeedsToBeUpdated)
+                } else {
                     switch selection {
                     case .home:
                         HomeView()
@@ -28,32 +33,30 @@ struct MainScreen: View {
                         ShareAppView()
                     }
                 }
-                .onReceive(navigationManager.pageSelection) { newValue in
-                    selection = newValue
-                }
-                .toolbar {
-                    ToolbarItem(placement: .topBarLeading) {
-                        Button {
-                            isSideBarOpened.toggle()
-                        } label: {
-                            Label("Toggle", systemImage: "line.3.horizontal")
+            }
+                    .onReceive(navigationManager.pageSelection) { newValue in
+                        selection = newValue
+                    }
+                    .toolbar {
+                        ToolbarItem(placement: .topBarLeading) {
+                            Button {
+                                isSideBarOpened.toggle()
+                            } label: {
+                                Label("Toggle", systemImage: "line.3.horizontal")
+                            }
                         }
                     }
-                }
-                .navigationTitle(selection.title)
-                .toolbarColorScheme(.dark)
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbarBackground(Color(hex: "FF6200EE"), for: .navigationBar)
-                .toolbarBackground(.visible, for: .navigationBar)
-                .overlay {
-                    withAnimation(.bouncy) {
-                        NavigationDrawer(sideBarRowType: $selection, isOpen: $isSideBarOpened)
+                    .navigationTitle(selection.title)
+                    .toolbarColorScheme(.dark)
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbarBackground(Color(hex: "FF6200EE"), for: .navigationBar)
+                    .toolbarBackground(.visible, for: .navigationBar)
+                    .overlay {
+                        withAnimation(.bouncy) {
+                            NavigationDrawer(sideBarRowType: $selection, isOpen: $isSideBarOpened)
+                        }
                     }
-                }
-            } else {
-                NoNetworkView()
             }
-            
         }
     }
-}
+

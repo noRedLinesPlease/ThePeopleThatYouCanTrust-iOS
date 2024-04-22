@@ -12,6 +12,8 @@
 		6D14A5372BB0B2AD00AB7F46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */; };
 		6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */; };
 		6D14A53D2BB0BE8300AB7F46 /* SearchingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A53C2BB0BE8300AB7F46 /* SearchingImageView.swift */; };
+		6D1FF5242BD6265800B868AC /* AppUpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1FF5232BD6265800B868AC /* AppUpdateChecker.swift */; };
+		6D1FF5262BD6267D00B868AC /* UpdateAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1FF5252BD6267D00B868AC /* UpdateAppView.swift */; };
 		6D4C54CE2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */; };
 		6D4C54D12BAE0045008DDDF1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */; };
 		6D56FD622BA012240013404E /* Truculenta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D56FD612BA012240013404E /* Truculenta-SemiBold.ttf */; };
@@ -91,6 +93,8 @@
 		6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 		6D14A53C2BB0BE8300AB7F46 /* SearchingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingImageView.swift; sourceTree = "<group>"; };
+		6D1FF5232BD6265800B868AC /* AppUpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateChecker.swift; sourceTree = "<group>"; };
+		6D1FF5252BD6267D00B868AC /* UpdateAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAppView.swift; sourceTree = "<group>"; };
 		6D44EA4F2BA111530051CD86 /* ThePeopleThatYouCanTrustI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThePeopleThatYouCanTrustI.entitlements; sourceTree = "<group>"; };
 		6D4C54CD2BADFD65008DDDF1 /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
 		6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
@@ -137,7 +141,7 @@
 		CA7F88D7C78A2F45D37D3703 /* libPods-ThePeopleThatYouCanTrustITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8A79E7673137B53E5082B7 /* Pods-ThePeopleThatYouCanTrustI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustI.release.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustI/Pods-ThePeopleThatYouCanTrustI.release.xcconfig"; sourceTree = "<group>"; };
 		D0A5E634F3560E4DA59DC96C /* Pods-PeopleYouCanTrustClipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeopleYouCanTrustClipTests.release.xcconfig"; path = "Target Support Files/Pods-PeopleYouCanTrustClipTests/Pods-PeopleYouCanTrustClipTests.release.xcconfig"; sourceTree = "<group>"; };
-		E4A1F95B17E6C774354826DB /* libPods-ThePeopleThatYouCanTrustI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A1F95B17E6C774354826DB /* libPods-ThePeopleThatYouCanTrustI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThePeopleThatYouCanTrustI.a"; path = "../../../../../../../../../Users/brittanymarbaker/Library/Developer/Xcode/DerivedData/ThePeopleThatYouCanTrustI-dsolevlwvcbjpobaiilguvtvkiqp/Build/Products/Debug-iphoneos/libPods-ThePeopleThatYouCanTrustI.a"; sourceTree = SDKROOT; };
 		F1D1F3B0789D4E6CA63C784A /* libPods-PeopleYouCanTrustClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeopleYouCanTrustClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F83BE636EC8B8EA84658B /* libPods-ThePeopleThatYouCanTrustIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -254,6 +258,8 @@
 				6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */,
 				6D4C54D02BAE0045008DDDF1 /* CustomColor.swift */,
 				6DF63A162B9D4D23000BC120 /* Assets.xcassets */,
+				6D1FF5232BD6265800B868AC /* AppUpdateChecker.swift */,
+				6D1FF5252BD6267D00B868AC /* UpdateAppView.swift */,
 			);
 			path = ThePeopleThatYouCanTrustI;
 			sourceTree = "<group>";
@@ -579,6 +585,7 @@
 				6D14A5342BB0B27C00AB7F46 /* ImageLoader.swift in Sources */,
 				6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */,
 				6D6A87842B9E218700794633 /* MainScreen.swift in Sources */,
+				6D1FF5242BD6265800B868AC /* AppUpdateChecker.swift in Sources */,
 				6D6A87822B9E217800794633 /* NavManager.swift in Sources */,
 				6D6A878C2B9E21B000794633 /* DefaultCompaniesView.swift in Sources */,
 				6D6A87902B9E21D100794633 /* CustomSearchBar.swift in Sources */,
@@ -597,6 +604,7 @@
 				6D6A878A2B9E21A000794633 /* CompaniesView.swift in Sources */,
 				6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */,
 				6D6A87782B9E213700794633 /* PopupKeyboard.swift in Sources */,
+				6D1FF5262BD6267D00B868AC /* UpdateAppView.swift in Sources */,
 				6D6A878E2B9E21C400794633 /* SearchingCompaniesView.swift in Sources */,
 				6D6A877C2B9E215E00794633 /* SidebarView.swift in Sources */,
 			);
