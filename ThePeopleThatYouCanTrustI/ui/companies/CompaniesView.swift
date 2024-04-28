@@ -11,8 +11,10 @@ struct CompaniesView: View {
     @Environment(\.openURL) private var openURL
     
     @State private var companyList: [CompanyInfo] = []
+    @State private var productList: [ProductAkaCompany] = []
     @State private var companyCatergoryList: [String] = []
     @State private var categoriesString = ""
+    @State private var companyRank = 0
     @FocusState private var isFocused: Bool
     @State var searchBarText: String = ""
     @State var isLoading: Bool = true
@@ -21,7 +23,7 @@ struct CompaniesView: View {
     var filteredList: [CompanyInfo] {
         companyList.filter {
             if(searchBarText.isEmpty) {
-                true
+               true
             } else {
                 $0.categoryTag
                     .lowercased()
@@ -65,11 +67,12 @@ struct CompaniesView: View {
                 isLoading = isListLoaded
                 companyList.forEach { company in
                     company.categoryTag = company.companyCategories.joined(separator: ",")
+                    productList = company.products
+                                       
                 }
             }
         }
     }
-    
     
     func filterCompanies() -> some View {
         List {
@@ -79,9 +82,7 @@ struct CompaniesView: View {
                 if(isFocused && !searchBarText.isEmpty) {
                     SearchingCompaniesListView(filteredList1: filteredList, openUrl: openURL)
                 } else {
-                    
                     DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
-                    
                 }
             }
         }
@@ -91,6 +92,4 @@ struct CompaniesView: View {
         .listRowSeparator(/*@START_MENU_TOKEN@*/.visible/*@END_MENU_TOKEN@*/)
         .listRowBackground(Color.darkModeOrNot)
     }
-    
 }
-

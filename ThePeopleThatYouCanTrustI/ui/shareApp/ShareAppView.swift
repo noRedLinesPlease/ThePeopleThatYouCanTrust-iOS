@@ -77,7 +77,6 @@ struct ShareAppView : View {
                 .background(Color.darkModeOrNot)
             Spacer()
         }
-        
         .toast(isPresenting: $copyButtonClicked) {
             AlertToast(
                 displayMode: .banner(AlertToast.BannerAnimation.pop),
@@ -85,7 +84,6 @@ struct ShareAppView : View {
                 title: "Link copied to clipboard",
                 style: toastStyle
             )
-            
         }
         .background(Color.darkModeOrNot)
     }

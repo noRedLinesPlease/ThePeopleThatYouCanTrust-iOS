@@ -1,0 +1,6 @@
+module Pods_ThePeopleThatYouCanTrustITests {
+  umbrella header "Pods-ThePeopleThatYouCanTrustITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

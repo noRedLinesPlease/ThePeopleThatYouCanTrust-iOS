@@ -12,11 +12,9 @@ target 'ThePeopleThatYouCanTrustI' do
 end 
 
 target 'ThePeopleThatYouCanTrustITests' do
-    pod 'OCMock', '~> 2.0.1'
+  
 end
 
 target 'ThePeopleThatYouCanTrustIUITests' do
-    pod 'OCMock', '~> 2.0.1'
+  
 end
-
-

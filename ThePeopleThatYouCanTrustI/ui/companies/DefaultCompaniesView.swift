@@ -28,16 +28,17 @@ func DefaultCompanyListView(
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .font(.system(size: 14))
             
-                ImageView(withURL: logoUrl).frame(maxWidth: 180, maxHeight: 130)
-                }.frame(maxWidth: .infinity, maxHeight: 120)
-            .listRowSeparatorTint(.blue)
-            .onTapGesture {
-                let companyWeb = company.companyLogoList.first?.companyLink
-                openUrl(URL(string: companyWeb  ?? "")!)
-            }
+            ImageView(withURL: logoUrl).frame(maxWidth: 180, maxHeight: 130)
         }
-        .listRowBackground(Color.darkModeOrNot)
-        .listRowSeparator(.hidden)
+        .frame(maxWidth: .infinity, maxHeight: 120)
+        .listRowSeparatorTint(.blue)
+        .onTapGesture {
+            let companyWeb = company.companyLogoList.first?.companyLink
+            openUrl(URL(string: companyWeb  ?? "")!)
+        }
     }
+    .listRowBackground(Color.darkModeOrNot)
+    .listRowSeparator(.hidden)
+}
 
 

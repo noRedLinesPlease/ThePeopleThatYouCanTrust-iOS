@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct ThePeopleThatYouCanTrustIApp: App {
-    @Environment(\.colorScheme) var phoneDarkMode
     @StateObject var networkMonitor = NetworkMonitor()
     
     var body: some Scene {
         WindowGroup {
-                MainScreen()
+            //Change back to CheckIfAppIsUpdatedScreen before releasing
+            MainScreen()
                     .environmentObject(networkMonitor)
         }
     }

@@ -53,15 +53,15 @@ class AboutUsNetworkCall: ObservableObject {
     
     func fetchFromURL(_ url: URL) async -> String {
         let session = URLSession.shared
-        var test = ""
+        var websiteContent = ""
         do {
             let (theStringAsData, _) = try await session.data(from: (url))
-            test = String(data: theStringAsData, encoding: .utf8) ?? "NOPE from fetch url"
+            websiteContent = String(data: theStringAsData, encoding: .utf8) ?? "NOPE from fetch url"
         }
         catch {
             print("URL failed")
         }
-        return test
+        return websiteContent
     }
 }
 
