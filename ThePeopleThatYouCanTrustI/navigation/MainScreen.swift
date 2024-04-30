@@ -7,15 +7,15 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct MainScreen: View {
     @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
-    // @Binding var testUpdateBool: Bool
+    @EnvironmentObject var swiftUISpeech: SwiftUISpeech
     
     @State var selection: SideBarRowType = .companies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
-    // @State var appNeedsToBeUpdated = false
     
     var body: some View {
         NavigationView {
@@ -24,7 +24,7 @@ struct MainScreen: View {
                 case .home:
                     HomeView()
                 case .companies:
-                    CompaniesView()
+                    HomeScreen()
                 case .shareApp:
                     ShareAppView()
                 }

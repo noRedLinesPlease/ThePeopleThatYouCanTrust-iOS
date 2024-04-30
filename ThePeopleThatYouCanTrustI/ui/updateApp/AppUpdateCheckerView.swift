@@ -13,6 +13,7 @@ enum AppUpdateErrors : Error {
     case DataIsNullError
 }
 
+@available(iOS 17.0, *)
 struct CheckIfAppIsUpatedScreen : View {
     @EnvironmentObject var networkMonitor: NetworkMonitor
     @State var appNeedsToBeUpdated: Bool = false
