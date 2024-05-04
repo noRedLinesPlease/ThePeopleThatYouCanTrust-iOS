@@ -11,7 +11,7 @@ struct NavigationDrawer: View {
     @Injection(\.navigationManager) var navigationManager
     @Binding var sideBarRowType: SideBarRowType
     var sideBarWidth = UIScreen.main.bounds.size.width * 0.6
-    var sideBarHeight = UIScreen.main.bounds.size.height * 0.1
+    var sideBarHeight = UIScreen.main.bounds.size.height * 0.6
     
     
     @Binding var isOpen: Bool
@@ -41,7 +41,6 @@ struct NavigationDrawer: View {
                             y: isOpen ? -40 : -sideBarHeight
                         )
                     }
-
                 }
             }
             .frame(
@@ -49,8 +48,7 @@ struct NavigationDrawer: View {
                 maxHeight: .infinity,
                 alignment: .topLeading
             )
-        }                 
-
+        }
     }
 }
 

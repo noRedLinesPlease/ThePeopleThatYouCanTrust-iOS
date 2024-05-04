@@ -20,25 +20,26 @@ struct CustomSearchBar : View {
                 
                 TextField(text: $searchText) {
                     if #available(iOS 17.0, *) {
-                        Text("Search").foregroundStyle(.blue)
+                        Text("Search").foregroundStyle(.blue).padding(.leading, 4)
                     } else {
-                        Text("Search").foregroundColor(.blue)
+                        Text("Search").foregroundColor(.blue).padding(.leading, 6)
                     }
                 }
-                    .focused($isFocused, equals: true)
-                    .onChange(
-                        of: isFocused,
-                        perform: { value in
+                
+                .focused($isFocused, equals: true)
+                .onChange(
+                    of: isFocused,
+                    perform: { value in
                         self.showCancelButton = isFocused
                     })
-                    .foregroundStyle(Color.black)
-                    .onSubmit {
-                        isFocused = false
-                    }
-                    .autocorrectionDisabled()
+                .foregroundStyle(Color.black)
+                .onSubmit {
+                    isFocused = false
+                }
+                .autocorrectionDisabled()
                 Button(action: {
                     self.searchText = ""
-
+                    
                 }
                 ) {
                     Image(systemName: "xmark.circle.fill").opacity(searchText == "" ? 0 : 1)
@@ -47,12 +48,11 @@ struct CustomSearchBar : View {
                 
             }
             .onAppear { self.kGuardian.addObserver() }
-                .onDisappear { self.kGuardian.removeObserver() }
-
-            
+            .onDisappear { self.kGuardian.removeObserver() }
             .padding(EdgeInsets(top: 8, leading: 6, bottom: 8, trailing: 6))
             .foregroundColor(Color.blue)
             .background(.white)
+            .tint(Color.clear)
             .cornerRadius(10.0)
             
             if showCancelButton  {

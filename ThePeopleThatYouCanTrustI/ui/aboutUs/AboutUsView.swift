@@ -8,14 +8,12 @@
 import SwiftUI
 import Combine
 
-class HomeViewModel: ObservableObject {
-    
+class AboutUsViewModel: ObservableObject {
     @Injection(\.navigationManager) var navigationManager
-    
 }
 
-struct HomeView: View {
-    @StateObject var viewModel = HomeViewModel()
+struct AboutUsView: View {
+    @StateObject var viewModel = AboutUsViewModel()
     @State private var headerText: String = ""
     @State private var headerBodyText: String = ""
     @State private var subHeaderText: String = ""
@@ -28,8 +26,9 @@ struct HomeView: View {
             VStack(spacing: 4) {
                 Image(
                     "updatedLogo"
-                ).resizable()
-                    .frame(width: 160, height: 160)
+                )
+                .resizable()
+                .frame(width: 160, height: 160)
                 
                 Divider()
                     .frame(width: .none, height: 1)
@@ -92,7 +91,8 @@ struct HomeView: View {
                 }
             }
             .padding(.horizontal, 6)
-        }.background(Color.darkModeOrNot)
+        }
+        .background(Color.darkModeOrNot)
     }
 }
 

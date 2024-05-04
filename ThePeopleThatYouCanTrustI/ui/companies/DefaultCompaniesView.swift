@@ -25,7 +25,7 @@ func DefaultCompanyListView(
                 .overlay(.blue)
             
             Text(company.companyName)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .font(.system(size: 14))
             
             ImageView(withURL: logoUrl).frame(maxWidth: 180, maxHeight: 130)
@@ -40,5 +40,3 @@ func DefaultCompanyListView(
     .listRowBackground(Color.darkModeOrNot)
     .listRowSeparator(.hidden)
 }
-
-

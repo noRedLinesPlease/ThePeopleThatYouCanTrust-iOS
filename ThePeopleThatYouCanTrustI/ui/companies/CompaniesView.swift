@@ -23,7 +23,7 @@ struct CompaniesView: View {
     var filteredList: [CompanyInfo] {
         companyList.filter {
             if(searchBarText.isEmpty) {
-               true
+                true
             } else {
                 $0.categoryTag
                     .lowercased()
@@ -68,7 +68,7 @@ struct CompaniesView: View {
                 companyList.forEach { company in
                     company.categoryTag = company.companyCategories.joined(separator: ",")
                     productList = company.products
-                                       
+                    
                 }
             }
         }
@@ -81,7 +81,8 @@ struct CompaniesView: View {
             } else {
                 if(isFocused && !searchBarText.isEmpty) {
                     SearchingCompaniesListView(filteredList1: filteredList, openUrl: openURL)
-                } else {
+                }
+                else {
                     DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
                 }
             }

@@ -10,19 +10,17 @@ import SwiftUI
 struct MainScreen: View {
     @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
-    // @Binding var testUpdateBool: Bool
     
     @State var selection: SideBarRowType = .companies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
-    // @State var appNeedsToBeUpdated = false
     
     var body: some View {
         NavigationView {
             VStack {
                 switch selection {
-                case .home:
-                    HomeView()
+                case .aboutUs:
+                    AboutUsView()
                 case .companies:
                     CompaniesView()
                 case .shareApp:
@@ -38,13 +36,10 @@ struct MainScreen: View {
                         isSideBarOpened.toggle()
                     } label: {
                         Label("Toggle", systemImage: "line.3.horizontal")
-                    }
+                    }.tint(Color.blue)
                 }
             }
-            .navigationTitle(selection.title)
-            .toolbarColorScheme(.dark)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbarBackground(Color(hex: "FF6200EE"), for: .navigationBar)
+            .toolbarBackground(Color.gray.opacity(0.40))
             .toolbarBackground(.visible, for: .navigationBar)
             .overlay {
                 withAnimation(.bouncy) {

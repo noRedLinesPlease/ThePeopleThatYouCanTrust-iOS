@@ -13,7 +13,8 @@ struct SideBarView : View {
     @Binding var isSidebarVisible: Bool
     @ObservedObject var navigationManager : NavigationManager
     
-   var sideBarWidth = UIScreen.main.bounds.size.width * 0.5
+    var sideBarWidth = UIScreen.main.bounds.size.width * 0.5
+    var sideBarHeight = UIScreen.main.bounds.size.height * 0.5
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -28,14 +29,14 @@ struct SideBarView : View {
                         navigationManager.pageSelection.value = row.self
                         selectedSideMenuTab = row
                         isSidebarVisible.toggle()
-                    }        
-
+                    }
+                    
                 }
             }
             .padding(.top, 5)
             .padding(.horizontal, 40)
             .padding(.bottom, 10)
-            .background(Color.sidemenuDarkOrNot)
+            .background(Color.darkModeOrNot)
             
         }
         .padding(.leading, 14)
@@ -75,11 +76,9 @@ struct SideBarView : View {
         .padding(.bottom, 6)
         .padding(.top, 6)
         .background(
-            isSelected ? Color.sidemenuSelectedDark : Color.sidemenuDarkOrNot
+            isSelected ? Color.sidemenuSelectedDark : Color.darkModeOrNot
         )
         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 6, height: 5)))
         
     }
 }
-
-

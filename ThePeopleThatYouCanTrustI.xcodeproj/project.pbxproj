@@ -31,7 +31,7 @@
 		6D6A87802B9E217200794633 /* InjectionAnn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A877F2B9E217200794633 /* InjectionAnn.swift */; };
 		6D6A87822B9E217800794633 /* NavManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87812B9E217800794633 /* NavManager.swift */; };
 		6D6A87842B9E218700794633 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87832B9E218700794633 /* MainScreen.swift */; };
-		6D6A87862B9E219100794633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87852B9E219100794633 /* HomeView.swift */; };
+		6D6A87862B9E219100794633 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87852B9E219100794633 /* AboutUsView.swift */; };
 		6D6A87882B9E219900794633 /* CompanyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87872B9E219900794633 /* CompanyList.swift */; };
 		6D6A878A2B9E21A000794633 /* CompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87892B9E21A000794633 /* CompaniesView.swift */; };
 		6D6A878C2B9E21B000794633 /* DefaultCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */; };
@@ -110,7 +110,7 @@
 		6D6A877F2B9E217200794633 /* InjectionAnn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionAnn.swift; sourceTree = "<group>"; };
 		6D6A87812B9E217800794633 /* NavManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavManager.swift; sourceTree = "<group>"; };
 		6D6A87832B9E218700794633 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		6D6A87852B9E219100794633 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6D6A87852B9E219100794633 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 		6D6A87872B9E219900794633 /* CompanyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyList.swift; sourceTree = "<group>"; };
 		6D6A87892B9E21A000794633 /* CompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesView.swift; sourceTree = "<group>"; };
 		6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCompaniesView.swift; sourceTree = "<group>"; };
@@ -293,7 +293,7 @@
 				6DDC98D62BD93BAF00BF4753 /* updateApp */,
 				6D5ACE342BD010DD004844E5 /* shareApp */,
 				6D57AD742BB23F5E00124D99 /* noNetwork */,
-				6DF63A3F2B9D4E7B000BC120 /* home */,
+				6DF63A3F2B9D4E7B000BC120 /* aboutUs */,
 				6DF63A3E2B9D4E47000BC120 /* companies */,
 			);
 			path = ui;
@@ -311,12 +311,12 @@
 			path = companies;
 			sourceTree = "<group>";
 		};
-		6DF63A3F2B9D4E7B000BC120 /* home */ = {
+		6DF63A3F2B9D4E7B000BC120 /* aboutUs */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A87852B9E219100794633 /* HomeView.swift */,
+				6D6A87852B9E219100794633 /* AboutUsView.swift */,
 			);
-			path = home;
+			path = aboutUs;
 			sourceTree = "<group>";
 		};
 		6DF63A402B9D4E85000BC120 /* navigation */ = {
@@ -585,7 +585,7 @@
 				6D6A87922B9E21DC00794633 /* ApiFetchHandler.swift in Sources */,
 				6D57AD6F2BB1F2D800124D99 /* NavDrawer.swift in Sources */,
 				6D4C54CE2BADFD65008DDDF1 /* NoNetworkView.swift in Sources */,
-				6D6A87862B9E219100794633 /* HomeView.swift in Sources */,
+				6D6A87862B9E219100794633 /* AboutUsView.swift in Sources */,
 				6DF63A132B9D4D22000BC120 /* ThePeopleThatYouCanTrustIApp.swift in Sources */,
 				6D5ACE362BD010E9004844E5 /* ShareAppView.swift in Sources */,
 				6D14A53D2BB0BE8300AB7F46 /* SearchingImageView.swift in Sources */,
