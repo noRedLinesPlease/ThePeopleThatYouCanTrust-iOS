@@ -53,18 +53,19 @@ struct SideBarView : View {
         Button{
             action()
         } label: {
-            VStack(alignment: .leading, spacing: 0) {
+            VStack(alignment: .leading, spacing: 20) {
                 HStack(spacing: 10){
                     ZStack{
                         Image(systemName: imageName)
                             .resizable()
                             .renderingMode(.template)
+                            .font(.system(size: 15))
                             .foregroundColor(isSelected ? Color.darkModeSideText : Color.sideMenuTextDark)
                             .frame(width: 18, height: 18)
                     }
                     .frame(width: 28, height: 20)
                     Text(title)
-                        .font(.system(size: 12,weight: .bold))
+                        .font(.system(size: 15,weight: .bold))
                         .foregroundStyle(
                             isSelected ? Color.darkModeSideText : Color.sideMenuTextDark)
                     Spacer()

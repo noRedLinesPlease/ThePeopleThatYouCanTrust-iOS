@@ -69,7 +69,7 @@ struct AboutUsView: View {
                     .font(Font.custom("Kurale-Regular", size: 15))
                     .multilineTextAlignment(.center)
                 
-                Button(action: { viewModel.navigationManager.pageSelection.send(.companies) }) {
+                Button(action: { viewModel.navigationManager.pageSelection.send(.allCompanies) }) {
                     Text("Search companies")
                         .font(Font.custom("PermanentMarker-Regular", size: 15))
                         .foregroundStyle(.white)

@@ -30,31 +30,36 @@ class CompanyInfo : Codable, Hashable {
     
     func hash(into hasher: inout Hasher) {
             hasher.combine(companyName)
+            hasher.combine(companyListingCategory)
             hasher.combine(categoryTag)
         }
     
     let id = UUID()
     
     let companyName: String
-    let companyCategories: [String]
+    let companyListingCategory : [String]
+    let companyCategoryTags: [String]
     let companyLogoList: [CompanyLogoImage]
     let products: [ProductAkaCompany]
     
     private enum CodingKeys: String, CodingKey {
         case companyName = "name"
-        case companyCatergories = "tags"
+        case companyListingCategory = "variantAttributes"
+        case companyCategoryTags = "tags"
         case companyLogoList = "images"
         case products = "variants"
     }
     
     init(
         companyName: String,
-        companyCatergories: [String],
+        companyListingCategory: [String],
+        companyCategoryTags: [String],
         companyLogoList: [CompanyLogoImage],
         products: [ProductAkaCompany]
    ) {
           self.companyName = companyName
-          self.companyCategories = companyCatergories
+          self.companyListingCategory = companyListingCategory
+          self.companyCategoryTags = companyCategoryTags
           self.companyLogoList = companyLogoList
           self.products = products
       }
@@ -62,7 +67,8 @@ class CompanyInfo : Codable, Hashable {
     required init(from decoder:Decoder) throws {
          let values = try decoder.container(keyedBy: CodingKeys.self)
          companyName = try values.decode(String.self, forKey: .companyName)
-         companyCategories = try values.decode([String].self, forKey: .companyCatergories)
+         companyListingCategory = try values.decode([String].self, forKey: .companyListingCategory)
+         companyCategoryTags = try values.decode([String].self, forKey: .companyCategoryTags)
          companyLogoList = try values.decode([CompanyLogoImage].self, forKey: .companyLogoList)
          products = try values.decode([ProductAkaCompany].self, forKey: .products)
      }
@@ -70,7 +76,8 @@ class CompanyInfo : Codable, Hashable {
     public func encode(to encoder: Encoder) throws {
             var container = encoder.container(keyedBy: CodingKeys.self)
             try container.encode(self.companyName, forKey: .companyName)
-            try container.encode(self.companyCategories, forKey: .companyCatergories)
+            try container.encode(self.companyListingCategory, forKey: .companyListingCategory)
+            try container.encode(self.companyCategoryTags, forKey: .companyCategoryTags)
             try container.encode(self.companyLogoList, forKey: .companyLogoList)
             try container.encode(self.products, forKey: .products)
         }

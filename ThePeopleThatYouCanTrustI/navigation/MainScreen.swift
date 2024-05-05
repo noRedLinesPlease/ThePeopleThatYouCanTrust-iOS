@@ -11,7 +11,7 @@ struct MainScreen: View {
     @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
     
-    @State var selection: SideBarRowType = .companies
+    @State var selection: SideBarRowType = .searchCompanies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
     
@@ -21,8 +21,10 @@ struct MainScreen: View {
                 switch selection {
                 case .aboutUs:
                     AboutUsView()
-                case .companies:
-                    CompaniesView()
+                case .searchCompanies:
+                    SearchCompaniesView()
+                case .allCompanies:
+                    AllCompaniesView()
                 case .shareApp:
                     ShareAppView()
                 }

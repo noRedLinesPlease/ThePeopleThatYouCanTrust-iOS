@@ -28,9 +28,10 @@ func DefaultCompanyListView(
                 .fontWeight(.bold)
                 .font(.system(size: 14))
             
-            ImageView(withURL: logoUrl).frame(maxWidth: 180, maxHeight: 130)
+            ImageView(withURL: logoUrl)
+                .frame(maxWidth: 200, maxHeight: 160)
         }
-        .frame(maxWidth: .infinity, maxHeight: 120)
+        .frame(maxWidth: .infinity, maxHeight: 140)
         .listRowSeparatorTint(.blue)
         .onTapGesture {
             let companyWeb = company.companyLogoList.first?.companyLink

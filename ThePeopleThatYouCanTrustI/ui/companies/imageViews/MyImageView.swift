@@ -22,7 +22,7 @@ struct ImageView: View {
                 .imageScale(.small)
                 .clipped()
                 .padding(3)
-                .frame(maxWidth: 160, alignment: .center)
+                .frame(maxWidth: 200, maxHeight: 200, alignment: .center)
         }
     }
                 

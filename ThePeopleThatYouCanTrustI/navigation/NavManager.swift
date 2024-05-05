@@ -11,7 +11,7 @@ import Combine
 
 final class NavigationManager: NavigationManagerProtocol, ObservableObject {
 
-  @Published var pageSelection = CurrentValueSubject<SideBarRowType, Never>(.companies)
+    @Published var pageSelection = CurrentValueSubject<SideBarRowType, Never>(.searchCompanies)
 }
 
 protocol NavigationManagerProtocol {

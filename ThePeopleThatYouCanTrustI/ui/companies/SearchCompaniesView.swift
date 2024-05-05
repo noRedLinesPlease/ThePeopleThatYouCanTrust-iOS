@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct CompaniesView: View {
+struct SearchCompaniesView: View {
     @Environment(\.openURL) private var openURL
     
     @State private var companyList: [CompanyInfo] = []
     @State private var productList: [ProductAkaCompany] = []
-    @State private var companyCatergoryList: [String] = []
     @State private var categoriesString = ""
     @State private var companyRank = 0
     @FocusState private var isFocused: Bool
@@ -22,16 +21,16 @@ struct CompaniesView: View {
     
     var filteredList: [CompanyInfo] {
         companyList.filter {
-            if(searchBarText.isEmpty) {
-                true
+            if(searchBarText.isEmpty && searchBarText.count < 3) {
+                false
             } else {
-                $0.categoryTag
+                ($0.categoryTag
                     .lowercased()
                     .contains(searchBarText.lowercased()
                         .trimmingCharacters(in: .whitespacesAndNewlines))
                 || $0.companyName.lowercased()
                     .contains(searchBarText.lowercased()
-                        .trimmingCharacters(in: .whitespacesAndNewlines))
+                        .trimmingCharacters(in: .whitespacesAndNewlines)))
             }
         }
     }
@@ -41,17 +40,16 @@ struct CompaniesView: View {
             Image(
                 ImageResource.updatedLogo
             ).resizable()
-                .frame(width: 160, height: 160)
+                .frame(width: 140, height: 140)
+            
             Text("What can we help you find today?")
-                .font(.system(size: 18))
+                .font(Font.custom("ProtestGuerrilla-Regular", size: 30))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .padding(.bottom, 6)
+                .padding(.bottom, 10)
+                .multilineTextAlignment(.center)
+                .foregroundStyle(Color(hex: "#45C0C6"))
                 .background(Color.darkModeOrNot)
-            
-            Text("Search by company name or category")
-                .font(.system(size: 14))
-                .background(Color.darkModeOrNot)
-            
+                        
             CustomSearchBar(searchText: $searchBarText, isFocused: $isFocused)
             
             if(isLoading) {
@@ -66,7 +64,7 @@ struct CompaniesView: View {
                 companyList = companies
                 isLoading = isListLoaded
                 companyList.forEach { company in
-                    company.categoryTag = company.companyCategories.joined(separator: ",")
+                    company.categoryTag = company.companyCategoryTags.joined(separator: ",")
                     productList = company.products
                     
                 }
@@ -76,13 +74,12 @@ struct CompaniesView: View {
     
     func filterCompanies() -> some View {
         List {
-            if(filteredList.isEmpty) {
-                Text("No results found").listRowBackground(Color.darkModeOrNot)
-            } else {
-                if(isFocused && !searchBarText.isEmpty) {
+            if(!searchBarText.isEmpty && searchBarText.count > 2) {
+                if(filteredList.isEmpty) {
+                    Text("No results found").listRowBackground(Color.darkModeOrNot)
+                } else if(isFocused) {
                     SearchingCompaniesListView(filteredList1: filteredList, openUrl: openURL)
-                }
-                else {
+                } else {
                     DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
                 }
             }

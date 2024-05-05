@@ -25,7 +25,6 @@ struct CustomSearchBar : View {
                         Text("Search").foregroundColor(.blue).padding(.leading, 6)
                     }
                 }
-                
                 .focused($isFocused, equals: true)
                 .onChange(
                     of: isFocused,
