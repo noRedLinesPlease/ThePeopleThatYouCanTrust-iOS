@@ -63,7 +63,14 @@ struct ShareAppView : View {
                     .resizable()
                     .frame(width: 200, height: 200)
                     .padding(.bottom, 8)
-                
+                    .toast(isPresenting: $copyButtonClicked) {
+                        AlertToast(
+                            displayMode: .banner(AlertToast.BannerAnimation.slide),
+                            type: .regular,
+                            title: "Link copied to clipboard: \(whichAppLink)",
+                            style: toastStyle
+                        )
+                    }.padding(.bottom, 10)
                 HStack(spacing: 12) {
                     Image("androidIcon")
                         .resizable()
@@ -89,16 +96,6 @@ struct ShareAppView : View {
                     .resizable()
                     .frame(width: 200, height: 200)
             }
-            .toast(isPresenting: $copyButtonClicked) {
-                AlertToast(
-                    displayMode: .banner(AlertToast.BannerAnimation.pop),
-                    type: .regular,
-                    title: "Link copied to clipboard: \(whichAppLink)",
-                    style: toastStyle
-                )
-            }
-            .padding(.bottom, 10)
-            .background(Color.darkModeOrNot)
         }
         .background(Color.darkModeOrNot)
     }

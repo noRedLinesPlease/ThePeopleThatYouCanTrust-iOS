@@ -70,9 +70,10 @@ struct AboutUsView: View {
                     .multilineTextAlignment(.center)
                 
                 Button(action: { viewModel.navigationManager.pageSelection.send(.allCompanies) }) {
-                    Text("Search companies")
-                        .font(Font.custom("PermanentMarker-Regular", size: 15))
+                    Text("browse companies")
+                        .font(Font.custom("PermanentMarker-Regular", size: 16))
                         .foregroundStyle(.white)
+                        .padding(5)
                 }
                 .background(Color(hex: "#45C0C6"))
                 .buttonStyle(.bordered)

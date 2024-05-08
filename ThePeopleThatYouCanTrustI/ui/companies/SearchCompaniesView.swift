@@ -46,6 +46,7 @@ struct SearchCompaniesView: View {
                 .font(Font.custom("ProtestGuerrilla-Regular", size: 30))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .padding(.bottom, 10)
+                .lineLimit(3)
                 .multilineTextAlignment(.center)
                 .foregroundStyle(Color(hex: "#45C0C6"))
                 .background(Color.darkModeOrNot)
@@ -54,6 +55,7 @@ struct SearchCompaniesView: View {
             
             filterCompanies().background(Color.darkModeOrNot)
         }
+        .ignoresSafeArea(.keyboard)
         .background(Color.darkModeOrNot)
         .onAppear {
             APIFetchHandler.sharedInstance.fetchAPIData { companies, isListLoaded in

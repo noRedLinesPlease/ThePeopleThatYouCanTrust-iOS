@@ -16,7 +16,7 @@ enum AppUpdateErrors : Error {
 struct CheckIfAppIsUpatedScreen : View {
     @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
-
+    
     
     @State var appNeedsToBeUpdated: Bool = false
     @State var isLoading: Bool = true
@@ -38,11 +38,7 @@ struct CheckIfAppIsUpatedScreen : View {
                     ProgressView().progressViewStyle(CircularProgressViewStyle())
                 }
                 else {
-                   // if(appNeedsToBeUpdated) {
-                      //  AppUpateAlertView()
-                    //} else {
-                        MainScreen(appUpdateAvailable: $appNeedsToBeUpdated)
-                    //}
+                    MainScreen(appUpdateAvailable: $appNeedsToBeUpdated)
                 }
             }
         }

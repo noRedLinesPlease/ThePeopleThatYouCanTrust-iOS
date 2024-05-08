@@ -19,11 +19,7 @@ struct AllCompaniesView: View {
     
     @State private var companyList: [CompanyInfo] = []
     @State private var productList: [ProductAkaCompany] = []
-    @State private var businessTypeList: [String] = [
-        "Beauty", "Branding & Marketing", "Chimney", "Dentist", "Duct Cleaning", "Electrician", "Financial Advising", "Health & Wellness", "Heating + Cooling", "Home Improvement", "Insurance", "Loan", "Plumbing", "Massage", "Realtor", "Safety", "Yoga Studio", "Yoga Teacher Training"
-    ]
     @State private var newBusinessTypeList: [String] = []
-    @State private var businessTypeAsString = ""
     @State private var businessTypeListFromApi: [String] = []
     @State private var categorySelected = ""
     @State private var noCategorySelected = true
@@ -54,27 +50,24 @@ struct AllCompaniesView: View {
             
             LazyVGrid(columns: Array(repeating: .init(), count: 3),spacing: 0) {
                 ForEach(
-                    newBusinessTypeList,
+                    businessTypeListFromApi,
                     id: \.self
                 ) { category in
                     Text(category)
-                        //.font(.caption)
                         .font(.system(size: 14))
                         .foregroundStyle((category == categorySelected) ? Color(hex: "#45C0C6") : Color.blue)
                         .underline()
                         .multilineTextAlignment(.center)
                         .lineLimit(2)
-                        .padding(4)
-                        //.padding(.trailing, 6)
+                        .padding(3)
                         .onTapGesture {
                             categorySelected = category
                             noCategorySelected = false
-                            print(categorySelected)
                         }
                 }
                 
             }
-            .frame(width: screenSizeWidth)
+            .frame(maxWidth: screenSizeWidth)
             
             if(isLoading) {
                 ProgressView().progressViewStyle(CircularProgressViewStyle())
@@ -82,39 +75,37 @@ struct AllCompaniesView: View {
             else {
                 filterCompanies().background(Color.darkModeOrNot)
             }
-        }
-        .background(Color.darkModeOrNot)
-        .onAppear {
-            APIFetchHandler.sharedInstance.fetchAPIData { companies, isListLoaded in
-                companyList = companies
-                isLoading = isListLoaded
-                companyList.forEach { company in
-                    productList = company.products
-                    let businessCompanyCategory = company.companyListingCategory.joined(separator: ",")
-                    company.businessTypeString = businessCompanyCategory
-                    businessTypeListFromApi.append(businessCompanyCategory)
-                    businessTypeAsString += businessCompanyCategory
-                    
-//                    if(newBusinessTypeList) {
-//                        newBusinessTypeList.append(contentsOf: company.companyListingCategory)
-//                    }
+            
+            
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.darkModeOrNot)
+            .onAppear {
+                APIFetchHandler.sharedInstance.fetchAPIData { companies, isListLoaded in
+                    companyList = companies
+                    isLoading = isListLoaded
+                    companyList.forEach { company in
+                        productList = company.products
+                        let businessCompanyCategory = company.companyListingCategory.joined(separator: ",")
+                        company.businessTypeString = businessCompanyCategory
+                        company.companyListingCategory.forEach { listing in
+                            businessTypeListFromApi.append(listing)
+                        }
+                    }
+                    businessTypeListFromApi = businessTypeListFromApi.sorted(by: {$0.prefix(2) < $1.prefix(2) }).uniqued()
                 }
-                //newBusinessTypeList.sort(by: {$0.prefix(2) < $1.prefix(2) })
-               newBusinessTypeList = businessTypeList.uniqued()
-                print(newBusinessTypeList)
             }
-        
-        }
     }
+    
     
     func filterCompanies() -> some View {
         List {
             DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
         .listRowSeparator(/*@START_MENU_TOKEN@*/.visible/*@END_MENU_TOKEN@*/)
-        .listRowBackground(Color.darkModeOrNot)
+        .listRowBackground(Color.darkModeOrNot)        
     }
 }
 

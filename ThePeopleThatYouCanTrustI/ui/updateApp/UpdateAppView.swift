@@ -45,7 +45,7 @@ struct AppUpateAlertView : View {
         //                onDismissFunc: { dismiss() }
         //            )
         //        }
-        .alert("App update available! \n Update below to see the latest features.", isPresented: $shouldDismiss) {
+        .alert("App update available \n Update below to see the latest features!", isPresented: $shouldDismiss) {
             Button ("Update") {
                 let url = URL(string: "https://apps.apple.com/us/app/thepeoplethatyoucantrust/id6479319870")!
                 UIApplication.shared.open(url)

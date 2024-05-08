@@ -52,7 +52,7 @@ struct MainScreen: View {
                 }
             }
         }
-        .alert("App update available! \n Update below to see the latest features.", isPresented: $appUpdateAvailable) {
+        .alert(Text("App update available! \n Update below to see the latest features"), isPresented: $appUpdateAvailable) {
             Button ("Update") {
                 let url = URL(string: "https://apps.apple.com/us/app/thepeoplethatyoucantrust/id6479319870")!
                 UIApplication.shared.open(url)

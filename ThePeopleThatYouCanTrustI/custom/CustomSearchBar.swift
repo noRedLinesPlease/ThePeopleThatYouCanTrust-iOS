@@ -17,7 +17,7 @@ struct CustomSearchBar : View {
         HStack {
             HStack {
                 Image(systemName: "magnifyingglass")
-                
+        
                 TextField(text: $searchText) {
                     if #available(iOS 17.0, *) {
                         Text("Search").foregroundStyle(.blue).padding(.leading, 4)
@@ -51,7 +51,7 @@ struct CustomSearchBar : View {
             .padding(EdgeInsets(top: 8, leading: 6, bottom: 8, trailing: 6))
             .foregroundColor(Color.blue)
             .background(.white)
-            .tint(Color.clear)
+            .tint(Color.blue)
             .cornerRadius(10.0)
             
             if showCancelButton  {
