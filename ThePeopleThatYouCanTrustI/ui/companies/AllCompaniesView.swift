@@ -7,52 +7,74 @@
 
 import SwiftUI
 
+public extension Sequence where Element : Hashable {
+    func uniqued() -> [Element] {
+        var seen = Set<Element>()
+        return self.filter { seen.insert($0).inserted }
+    }
+}
+
 struct AllCompaniesView: View {
     @Environment(\.openURL) private var openURL
     
     @State private var companyList: [CompanyInfo] = []
     @State private var productList: [ProductAkaCompany] = []
-    @State private var companyCategoryList: [String] = ["Health & Wellness", "Home Improvement", "Yoga", "Self Care", "Financial Services", "All Companies"]
+    @State private var businessTypeList: [String] = [
+        "Beauty", "Branding & Marketing", "Chimney", "Dentist", "Duct Cleaning", "Electrician", "Financial Advising", "Health & Wellness", "Heating + Cooling", "Home Improvement", "Insurance", "Loan", "Plumbing", "Massage", "Realtor", "Safety", "Yoga Studio", "Yoga Teacher Training"
+    ]
+    @State private var newBusinessTypeList: [String] = []
+    @State private var businessTypeAsString = ""
+    @State private var businessTypeListFromApi: [String] = []
     @State private var categorySelected = ""
     @State private var noCategorySelected = true
     @State var catergorySelectionSelected: Bool = false
     @State var isLoading: Bool = true
     @State private var companyRank = 0
+    @State private var screenSizeWidth = UIScreen.main.bounds.width - 10
+    let items = [GridItem(.flexible()), GridItem(.flexible()),GridItem(.flexible())]
+    
     
     var filteredList: [CompanyInfo] {
         companyList.filter {
             if(noCategorySelected) {
                 true
             } else {
-                $0.companyListingCategory.first == categorySelected
+                $0.businessTypeString.contains(categorySelected)
             }
         }
     }
     
     var body: some View {
-        VStack(spacing: 0) {
+        VStack() {
             Image(
                 ImageResource.updatedLogo
-            ).resizable()
-                .frame(width: 150, height: 150)
-            HStack {
+            )
+            .resizable()
+            .frame(width: 150, height: 150)
+            
+            LazyVGrid(columns: Array(repeating: .init(), count: 3),spacing: 0) {
                 ForEach(
-                    companyCategoryList,
+                    newBusinessTypeList,
                     id: \.self
                 ) { category in
                     Text(category)
-                        .font(.callout)
+                        //.font(.caption)
+                        .font(.system(size: 14))
                         .foregroundStyle((category == categorySelected) ? Color(hex: "#45C0C6") : Color.blue)
                         .underline()
-                        .padding(.trailing, 6)
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .padding(4)
+                        //.padding(.trailing, 6)
                         .onTapGesture {
                             categorySelected = category
                             noCategorySelected = false
                             print(categorySelected)
-                            
                         }
                 }
+                
             }
+            .frame(width: screenSizeWidth)
             
             if(isLoading) {
                 ProgressView().progressViewStyle(CircularProgressViewStyle())
@@ -67,10 +89,21 @@ struct AllCompaniesView: View {
                 companyList = companies
                 isLoading = isListLoaded
                 companyList.forEach { company in
-                    print("CompanyListingOnAppear: \(company.companyListingCategory.first)")
                     productList = company.products
+                    let businessCompanyCategory = company.companyListingCategory.joined(separator: ",")
+                    company.businessTypeString = businessCompanyCategory
+                    businessTypeListFromApi.append(businessCompanyCategory)
+                    businessTypeAsString += businessCompanyCategory
+                    
+//                    if(newBusinessTypeList) {
+//                        newBusinessTypeList.append(contentsOf: company.companyListingCategory)
+//                    }
                 }
+                //newBusinessTypeList.sort(by: {$0.prefix(2) < $1.prefix(2) })
+               newBusinessTypeList = businessTypeList.uniqued()
+                print(newBusinessTypeList)
             }
+        
         }
     }
     
@@ -84,3 +117,5 @@ struct AllCompaniesView: View {
         .listRowBackground(Color.darkModeOrNot)
     }
 }
+
+

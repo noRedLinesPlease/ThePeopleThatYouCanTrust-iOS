@@ -14,7 +14,7 @@ struct ThePeopleThatYouCanTrustIApp: App {
     var body: some Scene {
         WindowGroup {
             //Change back to CheckIfAppIsUpdatedScreen before releasing
-            MainScreen()
+            CheckIfAppIsUpatedScreen()
                     .environmentObject(networkMonitor)
         }
     }

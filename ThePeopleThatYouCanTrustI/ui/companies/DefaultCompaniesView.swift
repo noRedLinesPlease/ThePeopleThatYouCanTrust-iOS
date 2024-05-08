@@ -29,7 +29,7 @@ func DefaultCompanyListView(
                 .font(.system(size: 14))
             
             ImageView(withURL: logoUrl)
-                .frame(maxWidth: 200, maxHeight: 160)
+                .frame(maxWidth: 220, maxHeight: 180)
         }
         .frame(maxWidth: .infinity, maxHeight: 140)
         .listRowSeparatorTint(.blue)

@@ -16,9 +16,9 @@ enum SideBarRowType: Int, CaseIterable {
         case .aboutUs:
             return "About Us"
         case .searchCompanies:
-            return "Search Company"
+            return "Search Companies"
         case .allCompanies:
-            return "Browse Companies"
+            return "Browse All Companies"
         case .shareApp:
             return "Share App"
         }

@@ -23,6 +23,7 @@ class CompanyList: Codable {
 class CompanyInfo : Codable, Hashable {
     var categoryTag = ""
     var productQuantity = 0
+    var businessTypeString = ""
     
     static func == (lhs: CompanyInfo, rhs: CompanyInfo) -> Bool {
         return lhs.id == rhs.id

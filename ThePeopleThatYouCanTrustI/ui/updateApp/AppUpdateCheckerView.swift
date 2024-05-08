@@ -14,9 +14,15 @@ enum AppUpdateErrors : Error {
 }
 
 struct CheckIfAppIsUpatedScreen : View {
+    @Injection(\.navigationManager) var navigationManager
     @EnvironmentObject var networkMonitor: NetworkMonitor
+
+    
     @State var appNeedsToBeUpdated: Bool = false
     @State var isLoading: Bool = true
+    @State var isAppUpdateAvailable = false
+    @State var selection: SideBarRowType = .searchCompanies
+    @State var shouldDismissModal = false
     
     var body: some View {
         VStack{
@@ -32,11 +38,11 @@ struct CheckIfAppIsUpatedScreen : View {
                     ProgressView().progressViewStyle(CircularProgressViewStyle())
                 }
                 else {
-                    if(appNeedsToBeUpdated) {
-                        AppUpateAlertView()
-                    } else {
-                        MainScreen()
-                    }
+                   // if(appNeedsToBeUpdated) {
+                      //  AppUpateAlertView()
+                    //} else {
+                        MainScreen(appUpdateAvailable: $appNeedsToBeUpdated)
+                    //}
                 }
             }
         }

@@ -13,7 +13,6 @@ struct ImageView: View {
 
     init(withURL url:String) {
         imageLoader = ImageLoader(urlString:url)
-        print("init image loader CALLED")
     }
 
     var body: some View {
@@ -22,7 +21,7 @@ struct ImageView: View {
                 .imageScale(.small)
                 .clipped()
                 .padding(3)
-                .frame(maxWidth: 200, maxHeight: 200, alignment: .center)
+                .frame(maxWidth: 250, maxHeight: 250, alignment: .center)
         }
     }
                 

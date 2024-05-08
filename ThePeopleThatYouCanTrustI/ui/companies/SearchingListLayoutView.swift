@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-func SearchingCompaniesListView(
+func SearchingListLayoutView(
     filteredList1 : [CompanyInfo],
     openUrl: OpenURLAction
 ) -> some View {

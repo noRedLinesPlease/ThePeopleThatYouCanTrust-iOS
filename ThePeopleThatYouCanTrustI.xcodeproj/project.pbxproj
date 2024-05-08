@@ -35,7 +35,7 @@
 		6D6A87882B9E219900794633 /* CompanyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87872B9E219900794633 /* CompanyList.swift */; };
 		6D6A878A2B9E21A000794633 /* SearchCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87892B9E21A000794633 /* SearchCompaniesView.swift */; };
 		6D6A878C2B9E21B000794633 /* DefaultCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */; };
-		6D6A878E2B9E21C400794633 /* SearchingCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878D2B9E21C400794633 /* SearchingCompaniesView.swift */; };
+		6D6A878E2B9E21C400794633 /* SearchingListLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878D2B9E21C400794633 /* SearchingListLayoutView.swift */; };
 		6D6A87902B9E21D100794633 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */; };
 		6D6A87922B9E21DC00794633 /* ApiFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87912B9E21DC00794633 /* ApiFetchHandler.swift */; };
 		6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87932B9E21E600794633 /* AboutUsNetworkCall.swift */; };
@@ -115,7 +115,7 @@
 		6D6A87872B9E219900794633 /* CompanyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyList.swift; sourceTree = "<group>"; };
 		6D6A87892B9E21A000794633 /* SearchCompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCompaniesView.swift; sourceTree = "<group>"; };
 		6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCompaniesView.swift; sourceTree = "<group>"; };
-		6D6A878D2B9E21C400794633 /* SearchingCompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingCompaniesView.swift; sourceTree = "<group>"; };
+		6D6A878D2B9E21C400794633 /* SearchingListLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingListLayoutView.swift; sourceTree = "<group>"; };
 		6D6A878F2B9E21D100794633 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		6D6A87912B9E21DC00794633 /* ApiFetchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiFetchHandler.swift; sourceTree = "<group>"; };
 		6D6A87932B9E21E600794633 /* AboutUsNetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsNetworkCall.swift; sourceTree = "<group>"; };
@@ -304,12 +304,12 @@
 		6DF63A3E2B9D4E47000BC120 /* companies */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A87872B9E219900794633 /* CompanyList.swift */,
-				6D6A87892B9E21A000794633 /* SearchCompaniesView.swift */,
-				6D6A878D2B9E21C400794633 /* SearchingCompaniesView.swift */,
-				6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */,
-				6D57AD752BB23F8300124D99 /* imageViews */,
 				6DB6D2052BE68F6F000C0D64 /* AllCompaniesView.swift */,
+				6D6A87872B9E219900794633 /* CompanyList.swift */,
+				6D6A878B2B9E21B000794633 /* DefaultCompaniesView.swift */,
+				6D6A87892B9E21A000794633 /* SearchCompaniesView.swift */,
+				6D6A878D2B9E21C400794633 /* SearchingListLayoutView.swift */,
+				6D57AD752BB23F8300124D99 /* imageViews */,
 			);
 			path = companies;
 			sourceTree = "<group>";
@@ -603,7 +603,7 @@
 				6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */,
 				6D6A87782B9E213700794633 /* PopupKeyboard.swift in Sources */,
 				6D1FF5262BD6267D00B868AC /* UpdateAppView.swift in Sources */,
-				6D6A878E2B9E21C400794633 /* SearchingCompaniesView.swift in Sources */,
+				6D6A878E2B9E21C400794633 /* SearchingListLayoutView.swift in Sources */,
 				6D6A877C2B9E215E00794633 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,7 +28,7 @@ struct SearchCompaniesView: View {
                     .lowercased()
                     .contains(searchBarText.lowercased()
                         .trimmingCharacters(in: .whitespacesAndNewlines))
-                || $0.companyName.lowercased()
+                 || $0.companyName.lowercased()
                     .contains(searchBarText.lowercased()
                         .trimmingCharacters(in: .whitespacesAndNewlines)))
             }
@@ -49,24 +49,18 @@ struct SearchCompaniesView: View {
                 .multilineTextAlignment(.center)
                 .foregroundStyle(Color(hex: "#45C0C6"))
                 .background(Color.darkModeOrNot)
-                        
+            
             CustomSearchBar(searchText: $searchBarText, isFocused: $isFocused)
             
-            if(isLoading) {
-                ProgressView().progressViewStyle(CircularProgressViewStyle())
-            } else {
-                filterCompanies().background(Color.darkModeOrNot)
-            }
+            filterCompanies().background(Color.darkModeOrNot)
         }
         .background(Color.darkModeOrNot)
         .onAppear {
             APIFetchHandler.sharedInstance.fetchAPIData { companies, isListLoaded in
                 companyList = companies
-                isLoading = isListLoaded
                 companyList.forEach { company in
                     company.categoryTag = company.companyCategoryTags.joined(separator: ",")
                     productList = company.products
-                    
                 }
             }
         }
@@ -78,7 +72,7 @@ struct SearchCompaniesView: View {
                 if(filteredList.isEmpty) {
                     Text("No results found").listRowBackground(Color.darkModeOrNot)
                 } else if(isFocused) {
-                    SearchingCompaniesListView(filteredList1: filteredList, openUrl: openURL)
+                    SearchingListLayoutView(filteredList1: filteredList, openUrl: openURL)
                 } else {
                     DefaultCompanyListView(companyList: filteredList, openUrl: openURL)
                 }
