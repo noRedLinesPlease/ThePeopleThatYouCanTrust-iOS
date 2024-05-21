@@ -12,7 +12,7 @@ struct MainScreen: View {
     @EnvironmentObject var networkMonitor: NetworkMonitor
     
     @State var shouldDismissModal: Bool = true
-    @State var selection: SideBarRowType = .searchCompanies
+    @State var selection: SideBarRowType = .browseCompanies
     @State var selectedSideMenuTab = 0
     @State var isSideBarOpened = false
     @Binding var appUpdateAvailable: Bool
@@ -25,8 +25,8 @@ struct MainScreen: View {
                     AboutUsView()
                 case .searchCompanies:
                     SearchCompaniesView()
-                case .allCompanies:
-                    AllCompaniesView()
+                case .browseCompanies:
+                    BrowseCompaniesView()
                 case .shareApp:
                     ShareAppView()
                 }

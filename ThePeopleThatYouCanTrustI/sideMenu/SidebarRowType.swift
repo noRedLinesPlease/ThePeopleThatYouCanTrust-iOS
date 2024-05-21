@@ -8,7 +8,7 @@
 enum SideBarRowType: Int, CaseIterable {
     case aboutUs = 0
     case searchCompanies = 1
-    case allCompanies = 2
+    case browseCompanies = 2
     case shareApp = 3
     
     var title: String{
@@ -17,8 +17,8 @@ enum SideBarRowType: Int, CaseIterable {
             return "About Us"
         case .searchCompanies:
             return "Search Companies"
-        case .allCompanies:
-            return "Browse All Companies"
+        case .browseCompanies:
+            return "Browse Companies"
         case .shareApp:
             return "Share App"
         }
@@ -30,7 +30,7 @@ enum SideBarRowType: Int, CaseIterable {
                 return "info.circle.fill"
             case.searchCompanies:
                 return "magnifyingglass"
-            case .allCompanies:
+            case .browseCompanies:
                 return "building.fill"
             case .shareApp:
                 return "square.and.arrow.up"

@@ -14,7 +14,7 @@ public extension Sequence where Element : Hashable {
     }
 }
 
-struct AllCompaniesView: View {
+struct BrowseCompaniesView: View {
     @Environment(\.openURL) private var openURL
     
     @State private var companyList: [CompanyInfo] = []
