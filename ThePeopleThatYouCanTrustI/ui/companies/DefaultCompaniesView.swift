@@ -16,7 +16,7 @@ func DefaultCompanyListView(
         companyList,
         id: \.self
     ) { company in
-            VStack(alignment: .center, spacing: 2) {
+            VStack(alignment: .center, spacing: 6) {
                 let logoImageSize = "?format=300w"
                 let logoUrl = (company.companyLogoList.first?.logoUrl ?? "") + (logoImageSize)
                 

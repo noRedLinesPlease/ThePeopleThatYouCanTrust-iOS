@@ -59,7 +59,7 @@ struct MainScreen: View {
             }
             Button("Dismiss") {
                 appUpdateAvailable = false
-                selection = .searchCompanies
+                selection = .browseCompanies
             }
         }
     }

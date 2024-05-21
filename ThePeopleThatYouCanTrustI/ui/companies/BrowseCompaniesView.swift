@@ -41,14 +41,13 @@ struct BrowseCompaniesView: View {
     }
     
     var body: some View {
-        VStack() {
+        VStack(spacing: 0) {
             Image(
                 ImageResource.updatedLogo
             )
             .resizable()
             .frame(width: 150, height: 150)
-            
-            LazyVGrid(columns: Array(repeating: .init(), count: 3),spacing: 0) {
+            LazyVGrid(columns: items, spacing: 0) {
                 ForEach(
                     businessTypeListFromApi,
                     id: \.self
@@ -59,7 +58,7 @@ struct BrowseCompaniesView: View {
                         .underline()
                         .multilineTextAlignment(.center)
                         .lineLimit(2)
-                        .padding(3)
+                        .padding(4)
                         .onTapGesture {
                             categorySelected = category
                             noCategorySelected = false
