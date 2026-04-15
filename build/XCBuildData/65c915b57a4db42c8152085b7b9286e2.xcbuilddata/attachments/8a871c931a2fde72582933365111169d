@@ -1,0 +1,3 @@
+#!/bin/sh
+"${PODS_ROOT}/Target Support Files/OneSignal-4fb7ff32/OneSignal-4fb7ff32-xcframeworks.sh"
+

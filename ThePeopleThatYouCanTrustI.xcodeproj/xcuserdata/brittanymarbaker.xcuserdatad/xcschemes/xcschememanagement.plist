@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OneSignalNotificationServiceExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>PeopleYouCanTrustClip.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,7 +17,30 @@
 		<key>ThePeopleThatYouCanTrustI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6D920B4D2F8FFD20004EA756</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DF63A0E2B9D4D22000BC120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DF63A1E2B9D4D24000BC120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DF63A282B9D4D24000BC120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

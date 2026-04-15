@@ -1,0 +1,15 @@
+Target dependency graph (9 targets)
+Target 'Pods-ThePeopleThatYouCanTrustIUITests' in project 'Pods' (no dependencies)
+Target 'Pods-ThePeopleThatYouCanTrustITests' in project 'Pods' (no dependencies)
+Target 'Pods-ThePeopleThatYouCanTrustI' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'AlertToast' in project 'Pods'
+➜ Explicit dependency on target 'OneSignal-4fb7ff32' in project 'Pods'
+➜ Explicit dependency on target 'SwiftSoup' in project 'Pods'
+Target 'SwiftSoup' in project 'Pods' (no dependencies)
+Target 'Pods-OneSignalNotificationServiceExtension' in project 'Pods'
+➜ Explicit dependency on target 'OneSignal-459d159d' in project 'Pods'
+Target 'OneSignal-4fb7ff32' in project 'Pods' (no dependencies)
+Target 'OneSignal-459d159d' in project 'Pods' (no dependencies)
+Target 'AlertToast' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods' (no dependencies)

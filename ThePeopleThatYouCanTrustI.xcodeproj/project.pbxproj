@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302E11EBAA708D7AEE5F0135 /* libPods-ThePeopleThatYouCanTrustI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB009CBAB8ED3CBF84D7B83 /* libPods-ThePeopleThatYouCanTrustI.a */; };
 		6D14A5342BB0B27C00AB7F46 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */; };
 		6D14A5372BB0B2AD00AB7F46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */; };
 		6D14A53A2BB0B2DE00AB7F46 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */; };
@@ -40,6 +41,10 @@
 		6D6A87942B9E21E600794633 /* AboutUsNetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A87932B9E21E600794633 /* AboutUsNetworkCall.swift */; };
 		6D6A87972B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A87962B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf */; };
 		6D6A879D2B9E34C000794633 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6A879C2B9E34C000794633 /* PermanentMarker-Regular.ttf */; };
+		6D920B512F8FFD20004EA756 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D920B502F8FFD20004EA756 /* NotificationService.swift */; };
+		6D920B552F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6D920B4E2F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6D920B5B2F8FFF75004EA756 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6D920B5A2F8FFF75004EA756 /* OneSignalFramework */; };
+		6D920B5D2F9005C5004EA756 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6D920B5C2F9005C5004EA756 /* OneSignalFramework */; };
 		6DB6D2062BE68F6F000C0D64 /* BrowseCompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6D2052BE68F6F000C0D64 /* BrowseCompaniesView.swift */; };
 		6DDC98D52BD8484200BF4753 /* AppUpdateCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC98D42BD8484200BF4753 /* AppUpdateCheckerView.swift */; };
 		6DDC98D92BD93BFE00BF4753 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC98D82BD93BFE00BF4753 /* CustomAlertView.swift */; };
@@ -48,9 +53,18 @@
 		6DF63A242B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A232B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.swift */; };
 		6DF63A2E2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A2D2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.swift */; };
 		6DF63A302B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF63A2F2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITestsLaunchTests.swift */; };
+		8A38BD04BB4556A269012254 /* libPods-ThePeopleThatYouCanTrustIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECD0446277A1700D9658CBA /* libPods-ThePeopleThatYouCanTrustIUITests.a */; };
+		95BC5A0CA7B37D9366D870F2 /* libPods-ThePeopleThatYouCanTrustITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E08FCD357F9EA12AD9F6849 /* libPods-ThePeopleThatYouCanTrustITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6D920B532F8FFD20004EA756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D920B4D2F8FFD20004EA756;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		6DF63A202B9D4D24000BC120 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DF63A072B9D4D22000BC120 /* Project object */;
@@ -78,6 +92,17 @@
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DCA8C402F88448A001343F6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6D920B552F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +110,7 @@
 		319B0BA38EF427F11C9A149E /* Pods-ThePeopleThatYouCanTrustIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustIUITests.debug.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustIUITests/Pods-ThePeopleThatYouCanTrustIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		332020D30C6992C951E352E8 /* Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustIUITests/Pods-ThePeopleThatYouCanTrustIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3765EEDC6C2F720B170C88B4 /* Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustITests/Pods-ThePeopleThatYouCanTrustITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB009CBAB8ED3CBF84D7B83 /* libPods-ThePeopleThatYouCanTrustI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D14A5332BB0B27C00AB7F46 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		6D14A5362BB0B2AD00AB7F46 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		6D14A5392BB0B2DE00AB7F46 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
@@ -120,6 +146,10 @@
 		6D6A87952B9E243000794633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6D6A87962B9E2CE500794633 /* ProtestGuerrilla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProtestGuerrilla-Regular.ttf"; sourceTree = "<group>"; };
 		6D6A879C2B9E34C000794633 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
+		6D920B4E2F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D920B502F8FFD20004EA756 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		6D920B522F8FFD20004EA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D920B592F8FFE0F004EA756 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		6DB6D2052BE68F6F000C0D64 /* BrowseCompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCompaniesView.swift; sourceTree = "<group>"; };
 		6DDC98D42BD8484200BF4753 /* AppUpdateCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateCheckerView.swift; sourceTree = "<group>"; };
 		6DDC98D82BD93BFE00BF4753 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
@@ -131,15 +161,27 @@
 		6DF63A292B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThePeopleThatYouCanTrustIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF63A2D2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePeopleThatYouCanTrustIUITests.swift; sourceTree = "<group>"; };
 		6DF63A2F2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePeopleThatYouCanTrustIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E08FCD357F9EA12AD9F6849 /* libPods-ThePeopleThatYouCanTrustITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECD0446277A1700D9658CBA /* libPods-ThePeopleThatYouCanTrustIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThePeopleThatYouCanTrustIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BA2A72273E2376B790333 /* Pods-ThePeopleThatYouCanTrustI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustI.debug.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustI/Pods-ThePeopleThatYouCanTrustI.debug.xcconfig"; sourceTree = "<group>"; };
 		CF8A79E7673137B53E5082B7 /* Pods-ThePeopleThatYouCanTrustI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThePeopleThatYouCanTrustI.release.xcconfig"; path = "Target Support Files/Pods-ThePeopleThatYouCanTrustI/Pods-ThePeopleThatYouCanTrustI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D920B4B2F8FFD20004EA756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920B5B2F8FFF75004EA756 /* OneSignalFramework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF63A0C2B9D4D22000BC120 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D920B5D2F9005C5004EA756 /* OneSignalFramework in Frameworks */,
+				302E11EBAA708D7AEE5F0135 /* libPods-ThePeopleThatYouCanTrustI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BC5A0CA7B37D9366D870F2 /* libPods-ThePeopleThatYouCanTrustITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A38BD04BB4556A269012254 /* libPods-ThePeopleThatYouCanTrustIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +245,16 @@
 			path = shareApp;
 			sourceTree = "<group>";
 		};
+		6D920B4F2F8FFD20004EA756 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6D920B592F8FFE0F004EA756 /* OneSignalNotificationServiceExtension.entitlements */,
+				6D920B502F8FFD20004EA756 /* NotificationService.swift */,
+				6D920B522F8FFD20004EA756 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		6DDC98D62BD93BAF00BF4753 /* updateApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +280,7 @@
 				6DF63A112B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */,
 				6DF63A222B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests */,
 				6DF63A2C2B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests */,
+				6D920B4F2F8FFD20004EA756 /* OneSignalNotificationServiceExtension */,
 				6DF63A102B9D4D22000BC120 /* Products */,
 				30B0EB4A7D26F2EDDB494EB2 /* Pods */,
 				E34205DAA89F4D11E0B1CEB0 /* Frameworks */,
@@ -238,6 +293,7 @@
 				6DF63A0F2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI.app */,
 				6DF63A1F2B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests.xctest */,
 				6DF63A292B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests.xctest */,
+				6D920B4E2F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -358,6 +414,9 @@
 		E34205DAA89F4D11E0B1CEB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E08FCD357F9EA12AD9F6849 /* libPods-ThePeopleThatYouCanTrustITests.a */,
+				8ECD0446277A1700D9658CBA /* libPods-ThePeopleThatYouCanTrustIUITests.a */,
+				5DB009CBAB8ED3CBF84D7B83 /* libPods-ThePeopleThatYouCanTrustI.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -365,6 +424,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6D920B4D2F8FFD20004EA756 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D920B562F8FFD20004EA756 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				6D920B4A2F8FFD20004EA756 /* Sources */,
+				6D920B4B2F8FFD20004EA756 /* Frameworks */,
+				6D920B4C2F8FFD20004EA756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				6D920B5A2F8FFF75004EA756 /* OneSignalFramework */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 6D920B4E2F8FFD20004EA756 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF63A332B9D4D24000BC120 /* Build configuration list for PBXNativeTarget "ThePeopleThatYouCanTrustI" */;
@@ -374,12 +453,17 @@
 				6DF63A0C2B9D4D22000BC120 /* Frameworks */,
 				6DF63A0D2B9D4D22000BC120 /* Resources */,
 				6D6A87D62B9FF1D900794633 /* Embed App Clips */,
+				6DCA8C402F88448A001343F6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6D920B542F8FFD20004EA756 /* PBXTargetDependency */,
 			);
 			name = ThePeopleThatYouCanTrustI;
+			packageProductDependencies = (
+				6D920B5C2F9005C5004EA756 /* OneSignalFramework */,
+			);
 			productName = ThePeopleThatYouCanTrustI;
 			productReference = 6DF63A0F2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI.app */;
 			productType = "com.apple.product-type.application";
@@ -429,9 +513,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					6D920B4D2F8FFD20004EA756 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					6DF63A0E2B9D4D22000BC120 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -454,6 +541,9 @@
 				Base,
 			);
 			mainGroup = 6DF63A062B9D4D22000BC120;
+			packageReferences = (
+				6D920B492F8FFB0E004EA756 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
 			productRefGroup = 6DF63A102B9D4D22000BC120 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -461,11 +551,19 @@
 				6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */,
 				6DF63A1E2B9D4D24000BC120 /* ThePeopleThatYouCanTrustITests */,
 				6DF63A282B9D4D24000BC120 /* ThePeopleThatYouCanTrustIUITests */,
+				6D920B4D2F8FFD20004EA756 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D920B4C2F8FFD20004EA756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF63A0D2B9D4D22000BC120 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -569,6 +667,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6D920B4A2F8FFD20004EA756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D920B512F8FFD20004EA756 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF63A0B2B9D4D22000BC120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,6 +730,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6D920B542F8FFD20004EA756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D920B4D2F8FFD20004EA756 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 6D920B532F8FFD20004EA756 /* PBXContainerItemProxy */;
+		};
 		6DF63A212B9D4D24000BC120 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6DF63A0E2B9D4D22000BC120 /* ThePeopleThatYouCanTrustI */;
@@ -637,6 +748,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6D920B572F8FFD20004EA756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y95747F67U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D920B582F8FFD20004EA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y95747F67U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustI.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6DF63A312B9D4D24000BC120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -839,8 +1004,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -860,8 +1025,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -880,7 +1045,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -899,7 +1064,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y95747F67U;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blue.panthers.ThePeopleThatYouCanTrustIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -913,6 +1078,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6D920B562F8FFD20004EA756 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D920B572F8FFD20004EA756 /* Debug */,
+				6D920B582F8FFD20004EA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6DF63A0A2B9D4D22000BC120 /* Build configuration list for PBXProject "ThePeopleThatYouCanTrustI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -950,6 +1124,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D920B492F8FFB0E004EA756 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D920B5A2F8FFF75004EA756 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D920B492F8FFB0E004EA756 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		6D920B5C2F9005C5004EA756 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D920B492F8FFB0E004EA756 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DF63A072B9D4D22000BC120 /* Project object */;
 }

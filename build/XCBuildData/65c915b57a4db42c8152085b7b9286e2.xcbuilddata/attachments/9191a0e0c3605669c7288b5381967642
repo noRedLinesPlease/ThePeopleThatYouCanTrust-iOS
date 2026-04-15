@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master.swiftconstvalues",
+    "dependencies" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master.d",
+    "diagnostics" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master.dia",
+    "emit-module-dependencies" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master-emit-module.dia",
+    "swift-dependencies" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast-master.swiftdeps"
+  },
+  "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/Pods/AlertToast/Sources/AlertToast/ActivityIndicator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/ActivityIndicator.o",
+    "llvm-bc" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/ActivityIndicator.bc",
+    "object" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/ActivityIndicator.o"
+  },
+  "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/Pods/AlertToast/Sources/AlertToast/AlertToast.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast.o",
+    "llvm-bc" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast.bc",
+    "object" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/AlertToast.o"
+  },
+  "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/Pods/AlertToast/Sources/AlertToast/BlurView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/BlurView.o",
+    "llvm-bc" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/BlurView.bc",
+    "object" : "/Users/brittanymarbaker/Documents/ThePeopleThatYouCanTrust-iOS/build/Pods.build/Release-iphoneos/AlertToast.build/Objects-normal/arm64/BlurView.o"
+  }
+}
